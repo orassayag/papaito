@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterStudio.master.cs"
+    Inherits="_MasterStudio" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title id="ScrTitle" runat="server"></title>
+    <meta name="keywords" content="free design template, download web templates, Sunset Website, XHTML, CSS" />
+    <meta name="description" content="Sunset - Free CSS Template, Free XHTML CSS Design Layout" />
+<link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+    <script src="jquery-1.3.2-vsdoc2.js" type="text/javascript"></script>
+    <script src="jquery.js" type="text/javascript"></script>
+
+    <script src="htmltooltip.js" type="text/javascript"></script>
+    <script src="JScript.js" type="text/javascript"></script>
+
+    <script src="OrScript.js" type="text/javascript"></script>
+    <script src="scripts.js" type="text/javascript"></script>
+    <script src="interface.js" type="text/javascript"></script>
+    
+
+</head>
+<body>
+    <div id="templatemo_container">
+        <div id="templatemo_menu">
+        <img src="MasterImages/PLGTL.gif" alt="" style="height:50px;"/>
+            <ul>
+                <li ><a  id="Home" runat="server" href="" ></a></li>
+                <li ><a id="Studio" runat="server" href="" ></a></li>
+                <li ><a id="Complex" runat="server" href=""></a></li>
+                <li ><a id="Staff" runat="server" href="" ></a></li>
+                <li ><a id="PR" runat="server" href="" ></a></li>
+             <li ><a id="Design" runat="server" href="" ></a></li>
+              <li ><a id="Prod" runat="server" href="" ></a></li>
+              <li ><a id="CAB" runat="server" href="" ></a></li>
+            </ul>
+        </div>
+        <div class="cleaner">
+        </div>
+        
+        <asp:ContentPlaceHolder ID="placeHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <!-- End Of Content area-->
+        <div id="templatemo_footer">
+            Copyright © 2010 <a href="#"> Modification: Niv M.R & Or A</a>
+        </div>
+    </div>
+    <!-- End Of Container -->
+    <!--  Free CSS Templates by TemplateMo.com  -->
+</body>
+</html>

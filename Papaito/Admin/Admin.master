@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin_Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Admin</title>
+    <link href="Admin.css" rel="stylesheet" type="text/css" />
+
+    <script src="Admin.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">
+        <div class="main">
+            <table class="cen" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                    <td>
+                        <img alt="" src="../OrImage/new2.jpg" class="papaPic" />
+                        <div id="login" class="mailNo" visible="false" runat="server">
+                            <div class="loginP">
+                                <div class="space61">
+                                </div>
+                                <table border="1">
+                                    <tr>
+                                        <td>
+                                            <div class="space59">
+                                            </div>
+                                            <h2>
+                                                Welcome</h2>
+                                            <table>
+                                                <tr>
+                                                    <td align="right">
+                                                        User ID:
+                                                    </td>
+                                                    <td align="left">
+                                                        <asp:TextBox ID="getUserID" runat="server" Width="200px"></asp:TextBox>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="right">
+                                                        Password:
+                                                    </td>
+                                                    <td align="left">
+                                                        <asp:TextBox ID="getPassword" TextMode="Password" runat="server" Width="200px"></asp:TextBox>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <asp:Label ID="errorLoginLabel" Text="" CssClass="errorLogin" runat="server"></asp:Label>
+                                            <br />
+                                            <asp:Button ID="loginBut" runat="server" Text="Login" OnClick="loginBut_Click" OnClientClick="return validateLogin()" />
+                                            <h5>
+                                                <a href="#" onclick="enableMail()">Forgot Password or User ID? Click Here</a></h5>
+                                            <div id="getMailDiv" runat="server" class="mailNo">
+                                                Enter E-Mail To Recover:
+                                                <asp:TextBox ID="recoverMail" runat="server"></asp:TextBox>
+                                                <asp:Button ID="forgot" runat="server" OnClientClick="return validate()" OnClick="forgot_Click" Text="Send" />
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="mainMenu" class="mailNo" visible="false" runat="server">
+                            <div id="wrapper2">
+                                <ul class="tabs2">
+                                    <li>
+                                        <asp:LinkButton PostBackUrl="#" ID="tabs1" runat="server" OnClick="tabs1_Click">Home</asp:LinkButton></li>
+                                    <li>
+                                        <asp:LinkButton PostBackUrl="#" ID="tabs2" runat="server" OnClick="tabs2_Click">Complex</asp:LinkButton></li>
+                                    <li>
+                                        <asp:LinkButton PostBackUrl="#" ID="tabs3" runat="server" OnClick="tabs3_Click">Studio</asp:LinkButton></li>
+                                    <li>
+                                        <asp:LinkButton PostBackUrl="#" ID="tabs4" runat="server" OnClick="tabs4_Click">Design</asp:LinkButton></li>
+                                    <li>
+                                        <asp:LinkButton PostBackUrl="#" ID="tabs5" runat="server" OnClick="tabs5_Click">Production</asp:LinkButton></li>
+                                    <li>
+                                        <asp:LinkButton PostBackUrl="#" ID="tabs6" runat="server" OnClick="tabs6_Click">All Artists</asp:LinkButton></li>
+                                    <li>
+                                        <asp:LinkButton PostBackUrl="#" ID="tabs7" runat="server" OnClick="tabs7_Click">Contact And About</asp:LinkButton></li>
+                                    <li>
+                                        <asp:LinkButton PostBackUrl="#" ID="tabs8" runat="server" OnClick="tabs8_Click">Staff</asp:LinkButton></li>
+                                    <li>
+                                        <asp:LinkButton PostBackUrl="#" ID="tabs9" runat="server" OnClick="tabs9_Click">PR</asp:LinkButton></li>
+                                    <li>
+                                        <asp:LinkButton PostBackUrl="#" ID="tabs10" runat="server" OnClick="tabs10_Click">Publish</asp:LinkButton></li>
+                                    <li>
+                                        <asp:LinkButton PostBackUrl="#" ID="tabs11" runat="server" OnClick="tabs11_Click">Admins</asp:LinkButton></li>
+                                </ul>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <asp:Button ID="exit" runat="server" Text="Exit" OnClick="exit_Click" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

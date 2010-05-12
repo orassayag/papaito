@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StudioMokeUpUniteD", "..\StudioMokeUpUniteD", "{BF082233-69BA-4788-BC38-DF8CC71610CB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/StudioMokeUpUniteD"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\StudioMokeUpUniteD\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\StudioMokeUpUniteD\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/StudioMokeUpUniteD"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\StudioMokeUpUniteD\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\StudioMokeUpUniteD\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1038"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF082233-69BA-4788-BC38-DF8CC71610CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF082233-69BA-4788-BC38-DF8CC71610CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

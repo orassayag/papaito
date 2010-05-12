@@ -1,0 +1,422 @@
+This Is Coaching's Logs From 31/05/2010 13:45:43:
+
+30/05/2010 20:00:45, 0 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+30/05/2010 21:45:24, 1 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+30/05/2010 21:45:24, 10 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+30/05/2010 21:45:24, 11 ==> Log: AddComplexPic: . 3 Was Successfully Added
+
+30/05/2010 21:45:24, 12 ==> Log: RemovePic: . בבבב Was Successfully Removed
+
+30/05/2010 21:45:24, 13 ==> Log: RemovePic: . גדכדכ Was Successfully Removed
+
+30/05/2010 21:45:24, 14 ==> Log: RemovePic: . ניסוי Was Successfully Removed
+
+30/05/2010 21:45:24, 15 ==> Log: RemovePic: . גדכדג Was Successfully Removed
+
+30/05/2010 21:45:24, 16 ==> Log: AddComplexPic: . 0 Was Successfully Added
+
+30/05/2010 21:45:24, 17 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+30/05/2010 21:45:24, 18 ==> Error: ValidateFields: . this.removeUpdatePicSelector.SelectedValue == ""
+
+30/05/2010 21:45:24, 19 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+30/05/2010 21:45:24, 2 ==> Log: RemovePic: . גכד Was Successfully Removed
+
+30/05/2010 21:45:24, 20 ==> Warn: DisablePic: . 0 Is Already Disabled
+
+30/05/2010 21:45:24, 21 ==> Log: AddComplexPic: . 1 Was Successfully Added
+
+30/05/2010 21:45:24, 22 ==> Log: AddComplexPic: . 2 Was Successfully Added
+
+30/05/2010 21:45:24, 23 ==> Error: ValidateFields: . this.complexTitleRoomHe.Text == ""
+
+30/05/2010 21:45:24, 24 ==> Error: AddComplexPic: . this.complexColorPicUpload.Value == ""
+
+30/05/2010 21:45:24, 25 ==> Error: ValidateFields: . this.complexTitleRoomHe.Text == ""
+
+30/05/2010 21:45:24, 26 ==> Error: AddComplexPic: . (!this.Master._PapaDal.CheckAvailablePlace(this.complexPicTypeSelector.SelectedValue,
+                    int.Parse(this.complexPicPlaceSelector.SelectedValue)))
+
+30/05/2010 21:45:24, 27 ==> Error: AddComplexPic: . (!this.Master._PapaDal.CheckAvailablePlace(this.complexPicTypeSelector.SelectedValue,
+                    int.Parse(this.complexPicPlaceSelector.SelectedValue)))
+
+30/05/2010 22:57:48, 28 ==> Error: ValidateFields: . this.complexAboutRoomEn.Text == ""
+
+30/05/2010 22:57:48, 29 ==> Error: AddComplexPic: . (!this.Master._PapaDal.CheckAvailablePlace(this.complexPicTypeSelector.SelectedValue,
+                    int.Parse(this.complexPicPlaceSelector.SelectedValue)))
+
+30/05/2010 21:45:24, 3 ==> Log: AddComplexPic: . 1 Was Successfully Added
+
+30/05/2010 22:57:48, 30 ==> Error: AddComplexPic: . this.complexBWPicUpload.Value == ""
+
+31/05/2010 08:25:58, 31 ==> Error: AddComplexPic: . (!this.Master._PapaDal.CheckAvailablePlace(this.complexPicTypeSelector.SelectedValue,
+                    int.Parse(this.complexPicPlaceSelector.SelectedValue)))
+
+31/05/2010 08:25:58, 32 ==> Error: AddComplexPic: . (!this.Master._PapaDal.CheckAvailablePlace(this.complexPicTypeSelector.SelectedValue,
+                    int.Parse(this.complexPicPlaceSelector.SelectedValue)))
+
+31/05/2010 08:25:58, 33 ==> Error: AddComplexPic: . (!this.Master._PapaDal.CheckAvailablePlace(this.complexPicTypeSelector.SelectedValue,
+                    int.Parse(this.complexPicPlaceSelector.SelectedValue)))
+
+31/05/2010 08:25:58, 34 ==> Error: AddComplexPic: . (!this.Master._PapaDal.CheckAvailablePlace(this.complexPicTypeSelector.SelectedValue,place))
+
+31/05/2010 08:25:58, 35 ==> Error: AddComplexPic: . (!this.Master._PapaDal.CheckAvailablePlace(this.complexPicTypeSelector.SelectedValue,place))
+
+31/05/2010 08:25:58, 36 ==> Error: AddComplexPic: . this.complexBWPicUpload.Value == ""
+
+31/05/2010 08:25:58, 37 ==> Error: ValidateFields: . this.complexTitleRoomEn.Text == ""
+
+31/05/2010 08:25:58, 38 ==> Error: AddComplexPic: . this.complexBWPicUpload.Value == ""
+
+31/05/2010 08:25:58, 39 ==> Error: AddComplexPic: . this.complexColorPicUpload.Value == ""
+
+30/05/2010 21:45:24, 4 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+31/05/2010 08:25:58, 40 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+31/05/2010 08:25:58, 41 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+31/05/2010 08:25:58, 42 ==> Log: RemovePic: . רום A 1 Was Successfully Removed
+
+31/05/2010 08:25:58, 43 ==> Log: AddComplexPic: . 1 Was Successfully Added
+
+31/05/2010 08:25:58, 44 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 09:23:08, 45 ==> Error: Page_Init: . p == null
+
+31/05/2010 09:23:08, 46 ==> Error: Page_Init: . p == null
+
+31/05/2010 09:23:08, 47 ==> Error: Page_Init: . p == null
+
+31/05/2010 09:23:08, 48 ==> Error: Page_Init: . p == null
+
+31/05/2010 09:23:08, 49 ==> Error: Page_Init: . p == null
+
+30/05/2010 21:45:24, 5 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+31/05/2010 09:23:08, 50 ==> Error: Page_Init: . p == null
+
+31/05/2010 09:23:08, 51 ==> Error: Page_Init: . p == null
+
+31/05/2010 09:23:08, 52 ==> Error: Page_Init: . p == null
+
+31/05/2010 09:23:08, 53 ==> Error: Page_Init: . p == null
+
+31/05/2010 09:23:08, 54 ==> Log: RemovePic: . גדכ Was Successfully Removed
+
+31/05/2010 09:23:08, 55 ==> Log: RemovePic: . דגכד Was Successfully Removed
+
+31/05/2010 09:23:08, 56 ==> Log: RemovePic: . ניסוי Was Successfully Removed
+
+31/05/2010 09:23:08, 57 ==> Log: AddComplexPic: . 0 Was Successfully Added
+
+31/05/2010 09:23:08, 58 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 09:23:08, 59 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+30/05/2010 21:45:24, 6 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+31/05/2010 09:23:08, 60 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 09:23:08, 61 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 09:23:08, 62 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 09:23:08, 63 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 09:23:08, 64 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 10:37:08, 65 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 10:37:08, 66 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 10:37:08, 67 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 10:37:08, 68 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 10:37:08, 69 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+30/05/2010 21:45:24, 7 ==> Log: AddComplexPic: . 2 Was Successfully Added
+
+31/05/2010 10:37:08, 70 ==> Log: RemovePic: . גדעכ Was Successfully Removed
+
+31/05/2010 10:37:08, 71 ==> Log: AddComplexPic: . 0 Was Successfully Added
+
+31/05/2010 10:37:08, 72 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 10:37:08, 73 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 10:37:08, 74 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 10:37:08, 75 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 10:37:08, 76 ==> Log: AddComplexPic: . 1 Was Successfully Added
+
+31/05/2010 10:37:08, 77 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+31/05/2010 10:37:08, 78 ==> Error: UpdatePic: . this.complexBWPicUpload.Value == ""
+
+31/05/2010 10:37:08, 79 ==> Error: UpdatePic: . this.complexBWPicUpload.Value == ""
+
+30/05/2010 21:45:24, 8 ==> Error: UpdatePic: . (!this.Master._PapaDal.CheckAvailablePlaceExcept(this.complexPicTypeSelector.SelectedValue,
+            p.PicPlace, int.Parse(this.complexPicPlace.Text)))
+
+31/05/2010 10:37:08, 80 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+31/05/2010 10:37:08, 81 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+31/05/2010 10:37:08, 82 ==> Error: UpdatePic: . this.complexBWPicUpload.Value == ""
+
+31/05/2010 10:37:08, 83 ==> Error: UpdatePic: . this.complexBWPicUpload.Value == ""
+
+31/05/2010 10:37:08, 84 ==> Error: UpdatePic: . this.complexBWPicUpload.Value == ""
+
+31/05/2010 10:37:08, 85 ==> Error: UpdatePic: . this.complexBWPicUpload.Value == ""
+
+31/05/2010 10:37:08, 86 ==> Error: UpdatePic: . this.complexBWPicUpload.Value == ""
+
+31/05/2010 10:37:08, 87 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+31/05/2010 10:37:08, 88 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+31/05/2010 10:37:08, 89 ==> Error: UpdatePic: . this.complexBWPicUpload.Value == ""
+
+30/05/2010 21:45:24, 9 ==> Log: UpdatePic: . 2 Was Successfully Updated
+
+31/05/2010 10:37:08, 90 ==> Log: UpdateText: . Complex Text Was Successfully Added
+
+31/05/2010 10:37:08, 91 ==> Log: UpdateText: . Complex Text Was Successfully Added
+
+31/05/2010 11:52:09, 92 ==> Log: UpdateText: . Complex Text Was Successfully Added
+
+31/05/2010 11:52:09, 93 ==> Log: UpdateText: . Complex Text Was Successfully Added
+
+31/05/2010 11:52:09, 94 ==> Log: UpdateText: . Complex Text Was Successfully Added
+
+31/05/2010 11:52:09, 95 ==> Log: UpdateText: . Complex Text Was Successfully Added
+
+31/05/2010 11:52:09, 96 ==> Log: UpdateText: . Complex Text Was Successfully Updated
+
+31/05/2010 11:52:09, 97 ==> Log: UpdateText: . Complex Text Was Successfully Updated
+
+31/05/2010 13:45:43, 98 ==> Error: AddstudioPic: . !this.Master._PapaDal.CheckAvailablePlace("studioPic", 
+                    int.Parse(this.studioPicPlace.Text))
+
+31/05/2010 13:45:43, 99 ==> Error: AddstudioPic: . !this.Master._PapaDal.CheckAvailablePlace("studioPic", 
+                    int.Parse(this.studioPicPlace.Text))
+
+This Is Coaching's Logs From 31/05/2010 21:17:57:
+
+31/05/2010 16:35:33, 0 ==> Error: AddstudioPic: . !this.Master._GlobalFunctions.ValidatePicEnd(this.studioBWPicUpload.Value)
+
+31/05/2010 16:35:33, 1 ==> Log: AddstudioPic: . 0 Was Successfully Added
+
+31/05/2010 16:35:33, 10 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+31/05/2010 17:12:21, 11 ==> Log: RemovePic: . 1 Was Successfully Removed
+
+31/05/2010 17:12:21, 12 ==> Log: AddstudioPic: . 1 Was Successfully Added
+
+31/05/2010 17:12:21, 13 ==> Error: UpdatePic: . if (!this.Master._PapaDal.CheckAvailablePlaceExcept("this.studioPicTypeSelector.SelectedValue",
+            p.PicPlace, int.Parse(this.studioPicPlaceSelector.SelectedValue)))
+
+31/05/2010 17:12:21, 14 ==> Log: EnablePic: . 1 Has Been Successfully Enabled
+
+31/05/2010 17:12:21, 15 ==> Error: UpdatePic: . if (!this.Master._PapaDal.CheckAvailablePlaceExcept("this.studioPicTypeSelector.SelectedValue",
+            p.PicPlace, int.Parse(this.studioPicPlaceSelector.SelectedValue)))
+
+31/05/2010 17:12:21, 16 ==> Error: UpdatePic: . if (!this.Master._PapaDal.CheckAvailablePlaceExcept("this.studioPicTypeSelector.SelectedValue",
+            p.PicPlace, int.Parse(this.studioPicPlaceSelector.SelectedValue)))
+
+31/05/2010 17:12:21, 17 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+31/05/2010 17:12:21, 18 ==> Log: UpdatePic: . 1 Was Successfully Updated
+
+31/05/2010 17:12:21, 19 ==> Log: DisablePic: . 1 Has Been Successfully Disabeld
+
+31/05/2010 16:35:33, 2 ==> Error: AddstudioPic: . this.studioBWPicUpload.Value == ""
+
+31/05/2010 17:12:21, 20 ==> Log: UpdateText: . Studio Text Was Successfully Updated
+
+31/05/2010 17:12:21, 21 ==> Log: UpdateText: . Studio Text Was Successfully Updated
+
+31/05/2010 17:12:21, 22 ==> Log: UpdateText: . Studio Text Was Successfully Updated
+
+31/05/2010 17:12:21, 23 ==> Log: UpdateText: . Studio Text Was Successfully Updated
+
+31/05/2010 17:12:21, 24 ==> Log: UpdateText: . Studio Text Was Successfully Updated
+
+31/05/2010 17:12:21, 25 ==> Log: AddDesignPic: . 0 Was Successfully Added
+
+31/05/2010 17:12:21, 26 ==> Error: ValidateFields: . this.designPicUpload.Value == ""
+
+31/05/2010 18:38:52, 27 ==> Error: ValidateFields: . this.designPicUpload.Value == ""
+
+31/05/2010 18:38:52, 28 ==> Error: ValidateFields: . this.designPicUpload.Value == ""
+
+31/05/2010 18:38:52, 29 ==> Warn: DisablePic: . 0 Is Already Disabled
+
+31/05/2010 16:35:33, 3 ==> Error: AddstudioPic: . this.studioColorPicUpload.Value == ""
+
+31/05/2010 18:38:52, 30 ==> Error: ValidateFields: . this.designPicUpload.Value == ""
+
+31/05/2010 18:52:46, 31 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 18:52:46, 32 ==> Log: UpdatePic: . 0 Was Successfully Updated
+
+31/05/2010 18:52:46, 33 ==> Log: EnablePic: . 0 Has Been Successfully Enabled
+
+31/05/2010 18:52:46, 34 ==> Log: DisablePic: . 0 Has Been Successfully Disabeld
+
+31/05/2010 18:52:46, 35 ==> Log: RemovePic: . 0 Was Successfully Removed
+
+31/05/2010 18:52:46, 36 ==> Error: ValidateFields: . this.productionArtistsNameHe.Text == ""
+
+31/05/2010 18:52:46, 37 ==> Error: ValidateFields: . this.productionArtistsNameHe.Text == ""
+
+31/05/2010 18:52:46, 38 ==> Error: ValidateFields: . this.productionHiddenUp.Value == ""
+
+31/05/2010 18:52:46, 39 ==> Error: ValidateFields: . this.productionHiddenUp.Value == ""
+
+31/05/2010 16:35:33, 4 ==> Error: AddstudioPic: . this.studioBWPicUpload.Value == ""
+
+31/05/2010 18:52:46, 40 ==> Error: ValidateFields: . this.productionArtistsNameHe.Text == ""
+
+31/05/2010 18:52:46, 41 ==> Error: ValidateFields: . this.productionArtistsNameEn.Text == ""
+
+31/05/2010 18:52:46, 42 ==> Error: ValidateFields: . this.productionColorPicUpload.Value == ""
+
+31/05/2010 18:52:46, 43 ==> Log: AddProduction: . 0 Was Successfully Added
+
+31/05/2010 18:52:46, 44 ==> Error: ValidateFields: . this.productionColorPicUpload.Value == ""
+
+31/05/2010 18:52:46, 45 ==> Error: ValidateFields: . this.productionArtistsNameHe.Text == ""
+
+31/05/2010 18:52:46, 46 ==> Error: ValidateFields: . this.productionArtistsNameHe.Text == ""
+
+31/05/2010 18:52:46, 47 ==> Error: ValidateFields: . this.productionArtistsNameEn.Text == ""
+
+31/05/2010 18:52:46, 48 ==> Error: ValidateFields: . this.productionAboutArtistsEn.Text == ""
+
+31/05/2010 18:52:46, 49 ==> Error: ValidateFields: . this.productionMainPicUpload.Value == ""
+
+31/05/2010 16:35:33, 5 ==> Error: AddstudioPic: . this.studioColorPicUpload.Value == ""
+
+31/05/2010 18:52:46, 50 ==> Error: ValidateFields: . this.productionColorPicUpload.Value == ""
+
+31/05/2010 18:52:46, 51 ==> Error: ValidateFields: . this.productionBWPicUpload.Value == ""
+
+31/05/2010 20:04:33, 52 ==> Error: ValidateFields: . (i < 0)
+
+31/05/2010 20:04:33, 53 ==> Error: ValidateFields: . (!int.TryParse(this.productionPlace.Text,out i))
+
+31/05/2010 20:04:33, 54 ==> Log: AddProduction: . 1 Was Successfully Added
+
+31/05/2010 20:04:33, 55 ==> Error: AddProduction: . !this.Master._PapaDal.CheckAvailablePlace("production", 
+                    int.Parse(this.productionPlace.Text))
+
+31/05/2010 20:04:33, 56 ==> Log: UpdateProduction: . דגכד Was Successfully Updated
+
+31/05/2010 20:04:33, 57 ==> Log: UpdateProduction: . דגכד Was Successfully Updated
+
+31/05/2010 20:04:33, 58 ==> Warn: DisableProduction: . שדכ Is Already Disabled
+
+31/05/2010 20:04:33, 59 ==> Log: EnableProduction: . 1 Has Been Successfully Enabled
+
+31/05/2010 16:35:33, 6 ==> Error: AddstudioPic: . this.studioColorPicUpload.Value == ""
+
+31/05/2010 20:04:33, 60 ==> Log: AddProduction: . 2 Was Successfully Added
+
+31/05/2010 20:04:33, 61 ==> Error: UpdateProduction: . (!this.Master._PapaDal.CheckAvailablePlaceExcept
+                ("production", g.ProPlace, int.Parse(this.productionPlace.Text)))
+
+31/05/2010 20:04:33, 62 ==> Log: RemoveProduction: . 0 Was Successfully Removed
+
+31/05/2010 20:04:33, 63 ==> Error: ValidateFields: . (!int.TryParse(this.productionPlace.Text,out i))
+
+31/05/2010 20:04:33, 64 ==> Log: RemoveProduction: . 0 Was Successfully Removed
+
+31/05/2010 20:04:33, 65 ==> Log: RemoveProduction: . 0 Was Successfully Removed
+
+31/05/2010 20:04:33, 66 ==> Log: RemoveProduction: . 0 Was Successfully Removed
+
+31/05/2010 20:49:23, 67 ==> Error: ValidateFields: . this.songNameHe.Text == ""
+
+31/05/2010 20:49:23, 68 ==> Error: ValidateFields: . youtube == ""
+
+31/05/2010 20:49:23, 69 ==> Error: ValidateFields: . this.songNameHe.Text == ""
+
+31/05/2010 16:35:33, 7 ==> Log: AddstudioPic: . 1 Was Successfully Added
+
+31/05/2010 20:49:23, 70 ==> Error: ValidateFields: . this.songNameHe.Text == ""
+
+31/05/2010 20:49:23, 71 ==> Error: ValidateFields: . youtube == ""
+
+31/05/2010 20:49:23, 72 ==> Error: ValidateFields: . youtube == ""
+
+31/05/2010 20:49:23, 73 ==> Error: ValidateFields: . youtube == ""
+
+31/05/2010 20:49:23, 74 ==> Error: ValidateFields: . this.addSongToProductionSelector.SelectedValue == null
+
+31/05/2010 20:49:23, 75 ==> Log: AddSong: . 0 Was Successfully Added
+
+31/05/2010 20:49:23, 76 ==> Error: updateSongButton_Click: . p == null
+
+31/05/2010 20:49:23, 77 ==> Error: ValidateFields: . this.removeUpdateSongSelector.SelectedValue == null
+
+31/05/2010 20:49:23, 78 ==> Error: ValidateFields: . this.songYoutubeAddress.Text == ""
+
+31/05/2010 20:49:23, 79 ==> Error: ValidateFields: . (!int.TryParse(this.songPlace.Text, out h))
+
+31/05/2010 16:35:33, 8 ==> Error: updateStudioPicButton_Click: . p == null
+
+31/05/2010 20:49:23, 80 ==> Error: AddSong: . !this.Master._PapaDal.CheckAvailablePlace("song", 
+                    int.Parse(this.songPlace.Text))
+
+31/05/2010 20:49:23, 81 ==> Error: ValidateFields: . this.addSongToProductionSelector.SelectedValue == null
+
+31/05/2010 20:49:23, 82 ==> Log: AddSong: . 1 Was Successfully Added
+
+31/05/2010 20:49:23, 83 ==> Error: updateSongButton_Click: . p == null
+
+31/05/2010 20:49:23, 84 ==> Log: AddSong: . 2 Was Successfully Added
+
+31/05/2010 20:49:23, 85 ==> Error: updateSongButton_Click: . p == null
+
+31/05/2010 20:49:23, 86 ==> Log: AddSong: . 3 Was Successfully Added
+
+31/05/2010 20:49:23, 87 ==> Error: updateSongButton_Click: . p == null
+
+31/05/2010 20:49:23, 88 ==> Error: AddSong: . !this.Master._PapaDal.CheckAvailablePlace("song", 
+                    int.Parse(this.songPlace.Text))
+
+31/05/2010 20:49:23, 89 ==> Log: AddSong: . 4 Was Successfully Added
+
+31/05/2010 16:35:33, 9 ==> Error: updateStudioPicButton_Click: . p == null
+
+31/05/2010 20:49:23, 90 ==> Error: UpdateSong: . !this.Master._PapaDal.CheckAvailablePlaceExcept("song",
+                             p.SongPlace, int.Parse(this.songPlace.Text)))
+
+31/05/2010 20:49:23, 91 ==> Error: UpdateProduction: . (!this.Master._PapaDal.CheckAvailablePlaceExcept
+                ("production", g.ProPlace, int.Parse(this.productionPlace.Text)))
+
+31/05/2010 20:49:23, 92 ==> Log: DisableProduction: . שדכ Has Been Successfully Disabeld
+
+31/05/2010 20:49:23, 93 ==> Log: EnableProduction: . 2 Has Been Successfully Enabled
+
+31/05/2010 20:49:23, 94 ==> Log: EnableSong: . 4 Has Been Successfully Enabled
+
+31/05/2010 20:49:23, 95 ==> Log: DisableSong: . 4 Has Been Successfully Disabeld
+
+31/05/2010 20:49:23, 96 ==> Warn: DisableSong: . גדכדג Is Already Disabled
+
+31/05/2010 21:17:57, 97 ==> Log: DisableProduction: . ניסוי Has Been Successfully Disabeld
+
+31/05/2010 21:17:57, 98 ==> Log: EnableSong: . 4 Has Been Successfully Enabled
+
+31/05/2010 21:17:57, 99 ==> Log: EnableProduction: . 2 Has Been Successfully Enabled
+
