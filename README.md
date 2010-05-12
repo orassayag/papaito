@@ -29,7 +29,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 * **Or Assayag** - *Initial work* - [orassayag](https://github.com/orassayag)
-* **Niv rabin** - *Initial work* - [nivmorabin](https://www.linkedin.com/in/nivmorabin/)
+* **Niv Rabin** - *Initial work* - [nivmorabin](https://www.linkedin.com/in/nivmorabin/)
 
 ## License
 
