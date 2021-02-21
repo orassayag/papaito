@@ -1,14 +1,14 @@
 ﻿function validateLogin() {
 
     var login = document.getElementById('ctl00_getUserID').value;
-    var passowrd = document.getElementById('ctl00_getPassword').value;
+    var password = document.getElementById('ctl00_getPassword').value;
 
     if (login == null || login == undefined || login == "") {
-            document.getElementById('ctl00_errorLoginLabel').innerText = 'Please Enter User ID';
+        document.getElementById('ctl00_errorLoginLabel').innerText = 'Please Enter User ID';
         return false;
     }
 
-    if (passowrd == null || passowrd == undefined || passowrd == "") {
+    if (password == null || password == undefined || password == "") {
         document.getElementById('ctl00_errorLoginLabel').innerText = 'Please Enter Password';
         return false;
     }

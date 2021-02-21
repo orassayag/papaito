@@ -88,7 +88,7 @@ public partial class _Default : System.Web.UI.Page
     {
         //in this part, will be inserted all the text stuff
         //check to see witch section need to be full of values
-        //if yes, insert them. if no, create 
+        //if yes, insert them. if no, create
         //if no, create object and insert him to the session
         //the first case have explenation, same for all
 
@@ -158,7 +158,7 @@ public partial class _Default : System.Web.UI.Page
             case "mainContact":
                 if (this.GetCount(type) == 0)
                 {
-                    StreamReader aben = new StreamReader(@"C:\Works\Papaito\StudioMokeUpUniteDfinal3\DataBaseReciver\Files\ContactEn.txt");
+                    StreamReader aben = new StreamReader(@"C:\Works\Papaito\StudioMokeUpUniteDfinal3\DataBaseReceiver\Files\ContactEn.txt");
                     StringBuilder contactEn = new StringBuilder();
 
                     try
@@ -177,7 +177,7 @@ public partial class _Default : System.Web.UI.Page
                     }
 
 
-                    StreamReader abhe = new StreamReader(@"C:\Works\Papaito\StudioMokeUpUniteDfinal3\DataBaseReciver\Files\ContactHe.txt");
+                    StreamReader abhe = new StreamReader(@"C:\Works\Papaito\StudioMokeUpUniteDfinal3\DataBaseReceiver\Files\ContactHe.txt");
                     StringBuilder contactHe = new StringBuilder();
 
                     try
@@ -217,7 +217,7 @@ public partial class _Default : System.Web.UI.Page
             case "mainAbout":
                 if (this.GetCount(type) == 0)
                 {
-                    StreamReader aben = new StreamReader(@"C:\Works\Papaito\StudioMokeUpUniteDfinal3\DataBaseReciver\Files\AboutEn.txt");
+                    StreamReader aben = new StreamReader(@"C:\Works\Papaito\StudioMokeUpUniteDfinal3\DataBaseReceiver\Files\AboutEn.txt");
                     StringBuilder aboutEn = new StringBuilder();
 
                     try
@@ -235,7 +235,7 @@ public partial class _Default : System.Web.UI.Page
                         }
                     }
 
-                    StreamReader abhe = new StreamReader(@"C:\Works\Papaito\StudioMokeUpUniteDfinal3\DataBaseReciver\Files\AboutHe.txt");
+                    StreamReader abhe = new StreamReader(@"C:\Works\Papaito\StudioMokeUpUniteDfinal3\DataBaseReceiver\Files\AboutHe.txt");
                     StringBuilder aboutHe = new StringBuilder();
 
                     try
@@ -338,7 +338,7 @@ public partial class _Default : System.Web.UI.Page
                 }
                 break;
             case "news":
-                StreamReader newsREn = new StreamReader(@"C:\Works\Papaito\StudioMokeUpUniteDfinal3\DataBaseReciver\Files\NewsEn.txt");
+                StreamReader newsREn = new StreamReader(@"C:\Works\Papaito\StudioMokeUpUniteDfinal3\DataBaseReceiver\Files\NewsEn.txt");
                 StringBuilder newsBEn = new StringBuilder();
 
                                     List<string> listEn = new List<string>();
@@ -367,7 +367,7 @@ public partial class _Default : System.Web.UI.Page
                 }
 
 
-                StreamReader newsRHe = new StreamReader(@"C:\Works\Papaito\StudioMokeUpUniteDfinal3\DataBaseReciver\Files\NewsHe.txt");
+                StreamReader newsRHe = new StreamReader(@"C:\Works\Papaito\StudioMokeUpUniteDfinal3\DataBaseReceiver\Files\NewsHe.txt");
                 StringBuilder newsBHe = new StringBuilder();
 
                 List<string> listHe = new List<string>();
@@ -436,11 +436,11 @@ public partial class _Default : System.Web.UI.Page
         string pathProBW = "OrImage/proB43.jpg";                //example of small black and white pic
         string textPublishHe = "שם הפירסום";                    //example of name of the publish pics in hebrew
         string textPublishEn = "Publish Name";                  //example of name of the publish pics in english
-        string artistTextEn = @"Text Text Text Text Text Text Text 
+        string artistTextEn = @"Text Text Text Text Text Text Text
                                 Text Text Text Text Text Text Text
                                 Text Text Text Text Text Text Text "; //example pf artist Text English
-        string artistTextHe = @"טקסט טקסט טקסט טקסט טקסט טקסט טקסט 
-                                טקסט טקסט טקסט טקסט טקסט טקסט טקסט 
+        string artistTextHe = @"טקסט טקסט טקסט טקסט טקסט טקסט טקסט
+                                טקסט טקסט טקסט טקסט טקסט טקסט טקסט
                                 טקסט טקסט טקסט טקסט טקסט טקסט טקסט  "; //example pf artist Text English
 
 
@@ -604,11 +604,11 @@ public partial class _Default : System.Web.UI.Page
                     for (int y = 0; y < 3; y++) //create 3 songs
                     {
                         string songID = this.GetNextAvailableID("song"); //get next available id for song
-                        /*this is the the 
+                        /*this is the the
                          * youtube embad*/
-                        string youtube = @"<object width=""320"" height=""265""><param name=""movie"" value=""http://www.youtube.com/v/ECbJdeh1VvA&hlen_US&fs=1&color1=0xe1600f&color2=0xfebd01""></param><param 
-                                                                name=""allowFullScreen"" value=""true""></param><param name=""allowscriptaccess""value=""always""></param><embed 
-                                                                src=""http://www.youtube.com/v/ECbJdeh1VvA&hlen_US&fs=1&color1=0xe1600f&color2=0xfebd01"" type=""application/x-shockwave-flash"" allowscriptaccess=""always"" 
+                        string youtube = @"<object width=""320"" height=""265""><param name=""movie"" value=""http://www.youtube.com/v/ECbJdeh1VvA&hlen_US&fs=1&color1=0xe1600f&color2=0xfebd01""></param><param
+                                                                name=""allowFullScreen"" value=""true""></param><param name=""allowscriptaccess""value=""always""></param><embed
+                                                                src=""http://www.youtube.com/v/ECbJdeh1VvA&hlen_US&fs=1&color1=0xe1600f&color2=0xfebd01"" type=""application/x-shockwave-flash"" allowscriptaccess=""always""
                                                                 allowfullscreen=""true""width=""200"" height=""25""></embed></object>";
                         Song s = new Song //create new song object
                             {

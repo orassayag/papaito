@@ -5,7 +5,7 @@
  * Licensed under the MIT License:
  *   http://www.opensource.org/licenses/mit-license.php
  *
- * Much thanks to primary contributer Ponticlaro (http://www.ponticlaro.com)
+ * Much thanks to primary contributor Ponticlaro (http://www.ponticlaro.com)
  */
 ;(function($) {
     // Globally keep track of all images by their unique hash.  Each item is an image data object.
@@ -127,7 +127,7 @@
 
             // Inserts an image into the set of images.  Argument listItem can be either a jQuery DOM element or arbitrary html.
             // @param listItem Either a jQuery object or a string of html of the list item that is to be added to the gallery.
-            // @param {Integer} position The index within the gallery where the item shouold be added.
+            // @param {Integer} position The index within the gallery where the item should be added.
             insertImage: function(listItem, position) {
                 this.addImage(listItem, false, true, position);
                 return this;
@@ -137,7 +137,7 @@
             // @param listItem Either a jQuery object or a string of html of the list item that is to be added to the gallery.
             // @param {Boolean} thumbExists Specifies whether the thumbnail already exists in the DOM or if it needs to be added.
             // @param {Boolean} insert Specifies whether the the image is appended to the end or inserted into the gallery.
-            // @param {Integer} position The index within the gallery where the item shouold be added.
+            // @param {Integer} position The index within the gallery where the item should be added.
             addImage: function(listItem, thumbExists, insert, position) {
                 var $li = (typeof listItem === "string") ? $(listItem) : listItem;
                 var $aThumb = $li.find('a.thumb');
@@ -278,7 +278,7 @@
 
             isPreloadComplete: false,
 
-            // Initalizes the image preloader
+            // Initializes the image preloader
             preloadInit: function() {
                 if (this.preloadAhead == 0) return this;
 
@@ -499,7 +499,7 @@
                 return this;
             },
 
-            // This function is garaunteed to be called anytime a gallery slide changes.
+            // This function is guaranteed to be called anytime a gallery slide changes.
             // @param {Object} imageData An object holding the image metadata of the image to navigate to.
             gotoImage: function(imageData) {
                 var index = imageData.index;
@@ -645,7 +645,7 @@
 						.append(imageData.caption);
                 }
 
-                // Hide the loading conatiner
+                // Hide the loading container
                 if (this.$loadingContainer) {
                     this.$loadingContainer.hide();
                 }
