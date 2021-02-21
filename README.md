@@ -1,4 +1,4 @@
-# Papaito old
+# Papaito Old
 
 Built in May 2010.
 Papaito site built for a customer and in the end didn't upload to production, but was nice to build and get experience with real world project.
@@ -32,7 +32,11 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Or Assayag** - *Initial work* - [orassayag](https://github.com/orassayag)
 * **Niv Rabin** - *Initial work* - [nivmorabin](https://www.linkedin.com/in/nivmorabin/)
+* Or Assayag <orassayag@gmail.com>
+* GitHub: https://github.com/orassayag
+* StackOverFlow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
+* LinkedIn: https://il.linkedin.com/in/orassayag
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This application has LIMITED License.
