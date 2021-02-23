@@ -1,8 +1,6 @@
 # Papaito Old
 
-Built in May 2010.
-Papaito site built for a customer and in the end didn't upload to production, but was nice to build and get experience with real world project.
-Built using ASP.NET Web-Forms + jQuery, Database as of LINQ-TO-SQL.
+Built in May 2010. Papaito site built for a customer and in the end didn't upload to production, but was nice to build and get experience with real world project. Built using ASP.NET Web-Forms + jQuery, Database as of LINQ-TO-SQL.
 
 ## Getting Started
 
@@ -10,7 +8,7 @@ Clone the project to your computer.
 
 ### Prerequisites
 
-You'll need to install .Net, and SQL management studio.
+You'll need to install .Net, and SQL Management Studio.
 
 ## Built With
 
