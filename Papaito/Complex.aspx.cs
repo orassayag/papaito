@@ -25,9 +25,9 @@ public partial class _03Complex : System.Web.UI.Page
     //    }
 
     //    Pics = Master.PapaDal.GetComplexRoomAPics();
-    //    RoomAimg1.HRef=Pics[0];
-    //    RoomAimg2.HRef = Pics[1];
-    //    RoomAimg3.HRef = Pics[2];
+    //    RoomAImg1.HRef=Pics[0];
+    //    RoomAImg2.HRef = Pics[1];
+    //    RoomAImg3.HRef = Pics[2];
     //    Pics=Master.PapaDal.GetComplexRoomBPics();
     //    RoomBImg1.HRef = Pics[0];
     //    RoomBImg2.HRef = Pics[1];
@@ -39,7 +39,7 @@ public partial class _03Complex : System.Web.UI.Page
     //    Pics = Master.PapaDal.GetComplexLookAroundPics();
     //    LookAroundImg1.HRef = Pics[0];
     //    LookAroundImg2.HRef = Pics[1];
-        
+
 
     //    //small pop up pics
     //    this.popSm1C.Src = ComplexPlayers[0].PicPathColor;
@@ -80,7 +80,7 @@ public partial class _03Complex : System.Web.UI.Page
     //        this.About.Style.Add("margin-left", "90px");
 
     //        this.MoreLink1.InnerText = "עוד";
-            
+
     //        this.ContactUs.InnerText = "צור קשר";
     //        this.ContactUs.Style.Add("margin-left", "75px");
 
@@ -103,7 +103,7 @@ public partial class _03Complex : System.Web.UI.Page
     //        this.About.Style.Add("margin-left", "90px");
 
     //        this.MoreLink1.InnerText = "More";
-            
+
     //        this.ContactUs.InnerText = "Contact Us";
     //        this.ContactUs.Style.Add("margin-left", "75px");
 

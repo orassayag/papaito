@@ -641,7 +641,7 @@ public partial class Admin_Complex : System.Web.UI.Page
         {
             this.Master._Logger.Error(new AdminException
             (". this.complexBWPicUpload.Value == \"\""), MethodBase.GetCurrentMethod().Name);
-            this.Notify(this.Master._Notifier.Notify(37, "Red", "Black And White Comnplex Pic"));
+            this.Notify(this.Master._Notifier.Notify(37, "Red", "Black And White Complex Pic"));
             this.ClearComplexPic();
             this.ShowBWArea(false);
             return;
@@ -947,7 +947,7 @@ public partial class Admin_Complex : System.Web.UI.Page
         {
             this.Master._PapaDal.Disable("complexPic", this.complexHiddenUp.Value);
             this.Master._Logger.Log(new AdminException(". " + p.RoomTitleHe +
-                " Has Been Successfully Disabeld"), MethodBase.GetCurrentMethod().Name);
+                " Has Been Successfully Disabled"), MethodBase.GetCurrentMethod().Name);
             this.Notify(this.Master._Notifier.Notify(7, "White", p.RoomTitleHe));
         }
         catch (Exception f)
@@ -1037,14 +1037,14 @@ public partial class Admin_Complex : System.Web.UI.Page
 
     public void ShowComplexPicUpdateInfo(bool visible)
     {
-        this.complexPicUpateInfo.Visible = visible;
+        this.complexPicUpdateInfo.Visible = visible;
         if (visible)
         {
-            this.complexPicUpateInfo.Attributes["class"] = "mailYes";
+            this.complexPicUpdateInfo.Attributes["class"] = "mailYes";
         }
         else
         {
-            this.complexPicUpateInfo.Attributes["class"] = "mailNo";
+            this.complexPicUpdateInfo.Attributes["class"] = "mailNo";
         }
     }
 
@@ -1235,7 +1235,7 @@ public partial class Admin_Complex : System.Web.UI.Page
         {
             this.Master._Logger.Error(e, MethodBase.GetCurrentMethod().Name);
             this.notifyLabel.ForeColor = Color.Red;
-            this.notifyLabel.Text = "Ooooops! Somthing Wrong Was Happend, Please Try Again Or/And content The Administrator";
+            this.notifyLabel.Text = "Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator";
         }
         finally
         {

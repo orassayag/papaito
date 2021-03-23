@@ -44,7 +44,7 @@ public partial class _Default : System.Web.UI.Page
         this.Start("allArtistsGallery");
         this.Start("allArtists");
 
-        //-----TAB 7 - CONTECT AND ABOUT-----//
+        //-----TAB 7 - CONTACT AND ABOUT-----//
         this.Start("mainContact");
         this.Start("mainAbout");
 
@@ -605,7 +605,7 @@ public partial class _Default : System.Web.UI.Page
                     {
                         string songID = this.GetNextAvailableID("song"); //get next available id for song
                         /*this is the the
-                         * youtube embad*/
+                         * youtube embed*/
                         string youtube = @"<object width=""320"" height=""265""><param name=""movie"" value=""http://www.youtube.com/v/ECbJdeh1VvA&hlen_US&fs=1&color1=0xe1600f&color2=0xfebd01""></param><param
                                                                 name=""allowFullScreen"" value=""true""></param><param name=""allowscriptaccess""value=""always""></param><embed
                                                                 src=""http://www.youtube.com/v/ECbJdeh1VvA&hlen_US&fs=1&color1=0xe1600f&color2=0xfebd01"" type=""application/x-shockwave-flash"" allowscriptaccess=""always""
@@ -623,7 +623,7 @@ public partial class _Default : System.Web.UI.Page
                                 spActive = spActive
                             };
 
-                        this.papaDal.Songs.InsertOnSubmit(s); //add the objec to the songlist
+                        this.papaDal.Songs.InsertOnSubmit(s); //add the object to the songlist
                         this.papaDal.SubmitChanges();
                     }
 

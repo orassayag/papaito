@@ -16,7 +16,7 @@
         <div id="addComplexPic" runat="server" class="mailNo" visible="false">
             <div class="cen">
                 <table>
-                    <tr id="complexPicUpateInfo" runat="server">
+                    <tr id="complexPicUpdateInfo" runat="server">
                         <td>
                             <table>
                                 <tr>

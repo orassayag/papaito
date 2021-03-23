@@ -76,7 +76,7 @@
                 <table>
                     <tr>
                         <td>
-                            Select Picutre:
+                            Select Picture:
                         </td>
                     </tr>
                     <tr>

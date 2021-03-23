@@ -10,7 +10,7 @@ using Dal;
 public partial class _MasterStudio : System.Web.UI.MasterPage
 {
     private PapaDal papaDal = new PapaDal();
-    
+
     public PapaDal PapaDal
     {
         get { return this.papaDal; }
@@ -194,7 +194,7 @@ public partial class _MasterStudio : System.Web.UI.MasterPage
             Design.Style.Add("float", "left");
             Design.Style.Add(HtmlTextWriterStyle.FontFamily, FontEn);
 
-            Prod.HRef = "Production.aspx?Languuage=En";
+            Prod.HRef = "Production.aspx?Language=En";
             Prod.InnerText = "Production";
             Prod.Style.Add(HtmlTextWriterStyle.Padding, PaddingEn);
             Prod.Style.Add(HtmlTextWriterStyle.Height, "20px");

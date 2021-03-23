@@ -1,6 +1,6 @@
 # Papaito Old
 
-Built in May 2010. Papaito site built for a customer and in the end didn't upload to production, but was nice to build and get experience with real world project. Built using ASP.NET Web-Forms + jQuery, Database as of LINQ-TO-SQL.
+Built in May 2010. Papaito site built for a customer and in the end didn't upload to production, but was nice to build and get experience with a real world project. Built using ASP.NET Web-Forms + jQuery, Database as of LINQ-TO-SQL.
 
 ## Getting Started
 
@@ -37,4 +37,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
-This application has LIMITED License.
+This application has an LIMITED License.

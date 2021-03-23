@@ -20,7 +20,7 @@ public partial class Admin_Staff : System.Web.UI.Page
             this.staffSelector.Items.Add(new ListItem("Add New Staff", "3"));
             this.staffSelector.Items.Add(new ListItem("Remove/Update New Staff", "4"));
 
-            if (!this.Master._PapaDal.ChackExistingStaff())
+            if (!this.Master._PapaDal.CheckExistingStaff())
             {
                 string[] names = new string[] {"", "Itay", "Perri", "Napo", "Dudu" };
 
@@ -422,7 +422,7 @@ public partial class Admin_Staff : System.Web.UI.Page
         }
 
         this.ShowNewStaffUpdateInfo(false);
-        this.ShowExistigStaffUpdateInfo(false);
+        this.ShowExistingStaffUpdateInfo(false);
 
         this.mainStaff.Visible = false;
         this.updateStaff.Visible = false;
@@ -450,11 +450,11 @@ public partial class Admin_Staff : System.Web.UI.Page
 
                 if (this.existingStaffHiddenUp.Value == "")
                 {
-                    this.ShowExistigStaffUpdateInfo(false);
+                    this.ShowExistingStaffUpdateInfo(false);
                 }
                 else
                 {
-                    this.ShowExistigStaffUpdateInfo(true);
+                    this.ShowExistingStaffUpdateInfo(true);
                 }
                 break;
             case 3:
@@ -520,7 +520,7 @@ public partial class Admin_Staff : System.Web.UI.Page
             this.staffNameEn.Text = g.TitleEn;
             this.staffExistingTextHe.Text = g.TextHe;
             this.staffExistingTextEn.Text = g.TitleEn;
-            this.ShowExistigStaffUpdateInfo(true);
+            this.ShowExistingStaffUpdateInfo(true);
 
         }
         catch (Exception e)
@@ -603,7 +603,7 @@ public partial class Admin_Staff : System.Web.UI.Page
         if (!this.Master._PapaDal.CheckAvailablePlace("staffPic", int.Parse(this.staffPlace.Text)))
         {
             this.Master._Logger.Error(new AdminException
-                (@". !this.Master._PapaDal.CheckAvailablePlace(""staffPic"", 
+                (@". !this.Master._PapaDal.CheckAvailablePlace(""staffPic"",
                     int.Parse(this.staffPlace.Text))"), MethodBase.GetCurrentMethod().Name);
             this.Notify(this.Master._Notifier.Notify(21, "Red", this.staffPlace.Text));
             this.ClearNewStaff();
@@ -1005,7 +1005,7 @@ public partial class Admin_Staff : System.Web.UI.Page
         this.ClearFields(6);
     }
 
-    public void ShowExistigStaffUpdateInfo(bool visible)
+    public void ShowExistingStaffUpdateInfo(bool visible)
     {
         this.existingStaffUpdateInfo.Visible = visible;
         if (visible)
@@ -1157,7 +1157,7 @@ public partial class Admin_Staff : System.Web.UI.Page
         {
             this.Master._Logger.Error(e, MethodBase.GetCurrentMethod().Name);
             this.notifyLabel.ForeColor = Color.Red;
-            this.notifyLabel.Text = "Ooooops! Somthing Wrong Was Happend, Please Try Again Or/And content The Administrator";
+            this.notifyLabel.Text = "Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator";
         }
         finally
         {

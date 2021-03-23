@@ -133,7 +133,7 @@ public partial class Admin_Production : System.Web.UI.Page
         }
     }
 
-    protected void diableProductionButton_Click(object sender, EventArgs e)
+    protected void disableProductionButton_Click(object sender, EventArgs e)
     {
         this.DisableProduction();
     }
@@ -492,7 +492,7 @@ public partial class Admin_Production : System.Web.UI.Page
                 }
                 break;
             case 2:
-                this.productuionStatusLabel.Text = "";
+                this.productionStatusLabel.Text = "";
                 this.productionLastUpdateLabel.Text = "";
                 this.productionArtistsNameHe.Text = "";
                 this.productionArtistsNameEn.Text = "";
@@ -640,7 +640,7 @@ public partial class Admin_Production : System.Web.UI.Page
         if (!this.Master._PapaDal.CheckAvailablePlace("production", int.Parse(this.productionPlace.Text)))
         {
             this.Master._Logger.Error(new AdminException
-                (@". !this.Master._PapaDal.CheckAvailablePlace(""production"", 
+                (@". !this.Master._PapaDal.CheckAvailablePlace(""production"",
                     int.Parse(this.productionPlace.Text))"), MethodBase.GetCurrentMethod().Name);
             this.Notify(this.Master._Notifier.Notify(21, "Red", this.productionPlace.Text));
             this.ClearProduction();
@@ -795,7 +795,7 @@ public partial class Admin_Production : System.Web.UI.Page
         {
             this.productionPlace.Text = p.ProPlace.ToString();
             this.productionLastUpdateLabel.Text = p.spLastUpdate;
-            this.productuionStatusLabel.Text = p.spActive;
+            this.productionStatusLabel.Text = p.spActive;
             this.productionArtistsNameHe.Text = p.ArtistNameHe;
             this.productionArtistsNameEn.Text = p.ArtistNameEn;
             this.productionAboutArtistsHe.Text = p.ArtistTextHe;
@@ -1067,7 +1067,7 @@ public partial class Admin_Production : System.Web.UI.Page
                     int.Parse(this.songPlace.Text)))
         {
             this.Master._Logger.Error(new AdminException
-                (@". !this.Master._PapaDal.CheckAvailablePlace(""song"", 
+                (@". !this.Master._PapaDal.CheckAvailablePlace(""song"",
                     int.Parse(this.songPlace.Text))"), MethodBase.GetCurrentMethod().Name);
             this.Notify(this.Master._Notifier.Notify(21, "Red", this.songPlace.Text));
             this.ClearSong();
@@ -1228,7 +1228,7 @@ public partial class Admin_Production : System.Web.UI.Page
 
     private void ShowProductionEnableDisable(bool visible)
     {
-        this.diableProductionButton.Visible = visible;
+        this.disableProductionButton.Visible = visible;
         this.enableProductionButton.Visible = visible;
     }
 
@@ -1386,7 +1386,7 @@ public partial class Admin_Production : System.Web.UI.Page
         {
             this.Master._PapaDal.Disable("song", this.songHiddenUp.Value);
             this.Master._Logger.Log(new AdminException(". " + p.SongID +
-                " Has Been Successfully Disabeld"), MethodBase.GetCurrentMethod().Name);
+                " Has Been Successfully Disabled"), MethodBase.GetCurrentMethod().Name);
             this.Notify(this.Master._Notifier.Notify(7, "White", p.SongNameHe));
         }
         catch (Exception f)
@@ -1468,7 +1468,7 @@ public partial class Admin_Production : System.Web.UI.Page
         {
             this.Master._PapaDal.Disable("production", p.ProID);
             this.Master._Logger.Log(new AdminException(". " + p.ArtistNameHe +
-                " Has Been Successfully Disabeld"), MethodBase.GetCurrentMethod().Name);
+                " Has Been Successfully Disabled"), MethodBase.GetCurrentMethod().Name);
             this.Notify(this.Master._Notifier.Notify(7, "White", p.ArtistNameHe));
         }
         catch (Exception f)
@@ -1696,7 +1696,7 @@ public partial class Admin_Production : System.Web.UI.Page
         {
             this.Master._Logger.Error(e, MethodBase.GetCurrentMethod().Name);
             this.notifyLabel.ForeColor = Color.Red;
-            this.notifyLabel.Text = "Ooooops! Something Wrong Was Happend, Please Try Again Or/And content The Administrator";
+            this.notifyLabel.Text = "Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator";
         }
         finally
         {

@@ -5,13 +5,13 @@
 <html>
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
-		
+
 		<script type="text/javascript" src="Galleryjs/jquery-1.3.2.js"></script>
 		<script type="text/javascript" src="Galleryjs/jquery.history.js"></script>
 		<script type="text/javascript" src="Galleryjs/jquery.gallerifficStudio.js"></script>
 		<script type="text/javascript" src="Galleryjs/jquery.opacityrollover.js"></script>
 		<link rel="stylesheet" href="Gallerycss/galleriffic-3.css" type="text/css" />
-		<!-- We only want the thunbnails to display when javascript is disabled -->
+		<!-- We only want the thumbnails to display when javascript is disabled -->
 		<script type="text/javascript">
 		    document.write('<style>.noscript { display: none; }</style>');
 		    $(document).ready(
@@ -86,13 +86,13 @@
 								<img src="Gallerycss/bt2.png" alt="" />
 							</a>
 						</li>
-						
+
 						<li>
 							<a class="thumb" runat="server" id="LookAroundImg3">
 								<img src="Gallerycss/bt3.png" alt="" />
 							</a>
 						</li>
-						
+
 						</ul>
 				</div>
 				<!-- End Advanced Gallery Html Containers -->
@@ -171,7 +171,7 @@
 		        }
 
 		        // Initialize history plugin.
-		        // The callback is called at once by present location.hash. 
+		        // The callback is called at once by the present location.hash.
 		        $.historyInit(pageload, "advanced.html");
 
 		        // set onlick event for buttons using the jQuery 1.3 live method
@@ -181,8 +181,8 @@
 		            var hash = this.href;
 		            hash = hash.replace(/^.*#/, '');
 
-		            // moves to a new page. 
-		            // pageload is called at once. 
+		            // moves to a new page.
+		            // pageload is called at once.
 		            // hash don't contain "#", "?"
 		            $.historyLoad(hash);
 
@@ -193,7 +193,7 @@
 		    });
 		</script>
 	</body>
-</html>            
+</html>
               <div style="height:80px";></div>
     <div id="templatemo_content_area">
         <div class="space9_gallery">
@@ -203,7 +203,7 @@
                 <div class="space4">
             </div>
                     <p id="AboutLeft" runat="server"></p>
-                   
+
                 <div class="space2">
                 </div>
             </div>

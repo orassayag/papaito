@@ -87,7 +87,7 @@ $(document).ready(function () { //perform actions when DOM is ready
         else { processZindex = 1; direction = ''; newZindex = z; inDeCrease = -1; } //set variables for "previous" action
 
         $('#pictures img').each(function () { //process each image
-            if ($(this).css('z-index') == processZindex) { //if its the image we need to process
+            if ($(this).css('z-index') == processZindex) { //if it's the image we need to process
                 $(this).animate({ 'top': direction + $(this).height() + 'px' }, 'slow', function () { //animate the img above/under the gallery (assuming all pictures are equal height)
                     $(this).css('z-index', newZindex) //set new z-index
                         .animate({ 'top': '0' }, 'slow', function () { //animate the image back to its original position
@@ -135,10 +135,10 @@ $(document).ready(function () { //perform actions when DOM is ready
 
 //    $('img.staff').click(function() { //when click on one of the images
 //        $('img').hide();  //hide all images
-//        $(this).attr('src', 'OrImages3/' + $(this).attr("id") + '.jpg').show(); // get the image you clicked, change the src to image with black background. finnally, show the new image
+//        $(this).attr('src', 'OrImages3/' + $(this).attr("id") + '.jpg').show(); // get the image you clicked, change the src to image with black background. finally, show the new image
 //        $('#outerContainer').css('background-image', 'url()'); // remove the background pic
 //        $('#outerContainer').css('width', '100px'); // shrink the div with all the images
-//        $('.showDetails').css('width', '700px'); //expend the div with the text
+//        $('.showDetails').css('width', '700px'); //expand the div with the text
 //        //        $('.showDetails').addClass('active');
 //        $('img.staff').hover(function() { //remove the border
 //            $(this).css({ "border": "" });

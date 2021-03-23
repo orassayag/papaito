@@ -72,7 +72,7 @@
                     </tr>
                 </table>
                 <asp:Button ID="addHeaderPicButton" Text="Add" runat="server" OnClick="addHeaderPicButton_Click" />
-                <asp:Button ID="diableHeaderPicButton" Text="Disable" runat="server" OnClick="diableHeaderPicButton_Click" />
+                <asp:Button ID="disableHeaderPicButton" Text="Disable" runat="server" OnClick="disableHeaderPicButton_Click" />
                 <asp:Button ID="enableHeaderPicButton" Text="Enable" runat="server" OnClick="enableHeaderPicButton_Click" />
                 <asp:Button ID="cancelAddHeaderPicButton" Text="Cancel" runat="server" OnClick="cancelAddHeaderPicButton_Click" />
             </div>
@@ -199,7 +199,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <asp:ListBox ID="removeUpdatelastRecordsSelector" runat="server" Width="200px" Height="200px">
+                                        <asp:ListBox ID="removeUpdateLastRecordsSelector" runat="server" Width="200px" Height="200px">
                                         </asp:ListBox>
                                     </td>
                                 </tr>

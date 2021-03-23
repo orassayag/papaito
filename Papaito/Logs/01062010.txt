@@ -1,648 +1,951 @@
 This Is Coaching's Logs From 01/06/2010 11:21:15:
-
-31/05/2010 21:17:57, 0 ==> Log: DisableProduction: . ניסוי Has Been Successfully Disabeld
-
+
+Disabled
+31/05/2010 21:17:57, 0 ==> Log: DisableProduction: . ניסוי Has Been Successfully Disabled
+
+
 31/05/2010 21:17:57, 1 ==> Log: RemoveProduction: The DELETE statement conflicted with the REFERENCE constraint "FK_Song_Production". The conflict occurred in database "Papaito3", table "dbo.Song", column 'ProID'.
 The statement has been terminated.
-
+
+
 31/05/2010 21:17:57, 10 ==> Log: AddSong: . 1 Was Successfully Added
-
+
+
 31/05/2010 21:17:57, 11 ==> Log: RemoveProduction: . 0 Was Successfully Removed
-
+
+
 31/05/2010 21:17:57, 12 ==> Log: AddProduction: . 0 Was Successfully Added
-
+
+
 31/05/2010 21:17:57, 13 ==> Log: AddSong: . 0 Was Successfully Added
-
+
+
 31/05/2010 21:17:57, 14 ==> Log: AddSong: . 1 Was Successfully Added
-
+
+
 31/05/2010 21:17:57, 15 ==> Log: AddSong: . 2 Was Successfully Added
-
-31/05/2010 21:17:57, 16 ==> Error: AddProduction: . !this.Master._PapaDal.CheckAvailablePlace("production", 
+
+
+31/05/2010 21:17:57, 16 ==> Error: AddProduction: . !this.Master._PapaDal.CheckAvailablePlace("production",
                     int.Parse(this.productionPlace.Text))
-
+
+
 31/05/2010 21:17:57, 17 ==> Log: AddProduction: . 1 Was Successfully Added
-
+
+
 31/05/2010 21:17:57, 18 ==> Log: AddSong: . 3 Was Successfully Added
-
+
+
 31/05/2010 21:17:57, 19 ==> Log: RemoveProduction: . 0 Was Successfully Removed
-
+
+
 31/05/2010 21:17:57, 2 ==> Log: AddSong: . 1 Was Successfully Added
-
+
+
 01/06/2010 08:16:34, 20 ==> Error: ValidateFields: . this.allArtistsGalleryNameEn.Text == ""
-
+
+
 01/06/2010 08:20:38, 21 ==> Error: ValidateFields: . this.allArtistsGalleryNameEn.Text == ""
-
+
+
 01/06/2010 08:20:38, 22 ==> Error: ValidateFields: . this.allArtistsGalleryNameEn.Text == ""
-
+
+
 01/06/2010 08:20:38, 23 ==> Error: ValidateFields: . this.allArtistsGalleryNameEn.Text == ""
-
+
+
 01/06/2010 08:20:38, 24 ==> Error: ValidateFields: . this.allArtistsGalleryNameEn.Text == ""
-
+
+
 01/06/2010 08:20:38, 25 ==> Error: ValidateFields: . this.allArtistsGalleryNameEn.Text == ""
-
+
+
 01/06/2010 08:20:38, 26 ==> Error: ValidateFields: . this.allArtistsGalleryPlace.Text == ""
-
+
+
 01/06/2010 08:20:38, 27 ==> Log: AddAllArtistsGallery: . גדכ Was Successfully Added
-
+
+
 01/06/2010 08:20:38, 28 ==> Log: AddAllArtistsGallery: . ניסוי Was Successfully Added
-
+
+
 01/06/2010 08:20:38, 29 ==> Error: ValidateFields: . this.allArtistsGalleryNameHe.Text == ""
-
+
+
 31/05/2010 21:17:57, 3 ==> Log: RemoveProduction: . 1 Was Successfully Removed
-
+
+
 01/06/2010 08:20:38, 30 ==> Log: UpdateGallery: Unable to cast object of type 'System.String' to type 'Dal.Gallery'.
-
+
+
 01/06/2010 08:20:38, 31 ==> Log: UpdateGallery: Unable to cast object of type 'System.String' to type 'Dal.Gallery'.
-
+
+
 01/06/2010 08:20:38, 32 ==> Log: UpdateGallery: Unable to cast object of type 'System.String' to type 'Dal.Gallery'.
-
+
+
 01/06/2010 08:20:38, 33 ==> Log: UpdateGallery: . ניסוי Was Successfully Updated
-
+
+
 01/06/2010 08:20:38, 34 ==> Log: UpdateGallery: . גדכ Was Successfully Updated
-
+
+
 01/06/2010 08:20:38, 35 ==> Log: UpdateGallery: . ניסוי Was Successfully Updated
-
+
+
 01/06/2010 08:20:38, 36 ==> Log: RemoveGallery: . 0 Was Successfully Removed
-
+
+
 01/06/2010 08:20:38, 37 ==> Log: RemoveGallery: . 1 Was Successfully Removed
-
+
+
 01/06/2010 08:20:38, 38 ==> Log: AddAllArtistsGallery: . שדכגדש Was Successfully Added
-
+
+
 01/06/2010 08:20:38, 39 ==> Error: AddAllArtistsGallery: . (!this.Master._PapaDal.CheckAvailablePlace
                 ("allArtistsGallery", int.Parse(this.allArtistsGalleryPlace.Text)))
-
+
+
 31/05/2010 21:17:57, 4 ==> Log: RemoveProduction: . 2 Was Successfully Removed
-
+
+
 01/06/2010 08:20:38, 40 ==> Log: AddAllArtistsGallery: . גדכדכ Was Successfully Added
-
+
+
 01/06/2010 08:42:47, 41 ==> Error: UpdateGallery: . (!this.Master._PapaDal.CheckAvailablePlaceExcept
            ("allArtistsGallery", g.GalleryPlace, int.Parse(this.allArtistsGalleryPlace.Text)))
-
+
+
 01/06/2010 08:42:47, 42 ==> Log: RemoveGallery: . 0 Was Successfully Removed
-
+
+
 01/06/2010 08:42:47, 43 ==> Error: ValidateFields: . this.allArtistsPicUpload.Value == ""
-
+
+
 01/06/2010 08:42:47, 44 ==> Error: ValidateFields: . this.allArtistsPicUpload.Value == ""
-
+
+
 01/06/2010 08:42:47, 45 ==> Error: ValidateFields: . this.allArtistsPicUpload.Value == ""
-
+
+
 01/06/2010 08:42:47, 46 ==> Error: ValidateFields: . this.allArtistsPicUpload.Value == ""
-
+
+
 01/06/2010 08:42:47, 47 ==> Error: ValidateFields: . this.allArtistsPicUpload.Value == ""
-
+
+
 01/06/2010 08:42:47, 48 ==> Error: ValidateFields: . this.allArtistsPicUpload.Value == ""
-
+
+
 01/06/2010 08:42:47, 49 ==> Error: ValidateFields: . this.addPicGallerySelector.SelectedValue == ""
-
+
+
 31/05/2010 21:17:57, 5 ==> Log: AddProduction: . 0 Was Successfully Added
-
+
+
 01/06/2010 08:42:47, 50 ==> Error: ValidateFields: . this.allArtistsPicUpload.Value == ""
-
+
+
 01/06/2010 08:42:47, 51 ==> Error: ValidateFields: . this.allArtistsPicPlace.Text == ""
-
+
+
 01/06/2010 08:42:47, 52 ==> Error: ValidateFields: . this.allArtistsPicPlace.Text == ""
-
+
+
 01/06/2010 08:42:47, 53 ==> Error: ValidateFields: . (!int.TryParse(this.allArtistsPicPlace.Text, out r))
-
+
+
 01/06/2010 08:42:47, 54 ==> Error: ValidateFields: . (r > 16)
-
+
+
 01/06/2010 08:54:08, 55 ==> Error: ValidateFields: . (r > 16)
-
+
+
 01/06/2010 08:54:08, 56 ==> Error: AddAllArtistsPic: . (!this.Master._PapaDal.CheckGalleryStatus(proID)))
-
+Disabled
+
 01/06/2010 09:03:44, 57 ==> Error: AddAllArtistsPic: String or binary data would be truncated.
 The statement has been terminated.
-
+
+
 01/06/2010 09:03:44, 58 ==> Error: AddAllArtistsPic: String or binary data would be truncated.
 The statement has been terminated.
-
+
+
 01/06/2010 09:03:44, 59 ==> Error: AddAllArtistsPic: String or binary data would be truncated.
 The statement has been terminated.
-
+
+
 31/05/2010 21:17:57, 6 ==> Log: AddSong: . 0 Was Successfully Added
-
+
+
 01/06/2010 09:41:11, 60 ==> Error: AddAllArtistsPic: String or binary data would be truncated.
 The statement has been terminated.
-
+
+
 01/06/2010 09:41:11, 61 ==> Error: AddAllArtistsPic: String or binary data would be truncated.
 The statement has been terminated.
-
+
+
 01/06/2010 09:49:52, 62 ==> Log: AddAllArtistsPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 09:49:52, 63 ==> Log: AddAllArtistsPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 09:49:52, 64 ==> Log: AddAllArtistsPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 09:49:52, 65 ==> Log: AddAllArtistsPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 09:49:52, 66 ==> Error: AddAllArtistsPic: . !this.Master._PapaDal.CheckAvailablePlace("allArtistsPic",
             int.Parse(this.allArtistsPicPlace.Text)))
-
+
+
 01/06/2010 09:49:52, 67 ==> Log: AddAllArtistsPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 09:49:52, 68 ==> Error: ValidateFields: . this.allArtistsPicHiddenUp.Value == ""
-
+
+
 01/06/2010 09:49:52, 69 ==> Error: ValidateFields: . this.allArtistsPicHiddenUp.Value == ""
-
+
+
 31/05/2010 21:17:57, 7 ==> Log: RemoveSong: . 0 Was Successfully Removed
-
+
+
 01/06/2010 09:49:52, 70 ==> Error: ValidateFields: . this.allArtistsPicHiddenUp.Value == ""
-
+
+
 01/06/2010 09:49:52, 71 ==> Error: ValidateFields: . this.allArtistsPicHiddenRe.Value == ""
-
+
+
 01/06/2010 09:49:52, 72 ==> Error: ValidateFields: . this.allArtistsPicHiddenRe.Value == ""
-
+
+
 01/06/2010 09:49:52, 73 ==> Log: UpdatePic: . 0 Was Successfully Updated
-
+
+
 01/06/2010 09:49:52, 74 ==> Error: ValidateFields: . (r > 16)
-
+
+
 01/06/2010 09:49:52, 75 ==> Log: UpdatePic: . 0 Was Successfully Updated
-
+
+
 01/06/2010 09:49:52, 76 ==> Error: ValidateFields: . this.allArtistsGalleryHiddenUp.Value == ""
-
+
+
 01/06/2010 09:49:52, 77 ==> Log: EnablePic: . 0 Has Been Successfully Enabled
-
-01/06/2010 09:49:52, 78 ==> Log: DisablePic: . 0 Has Been Successfully Disabeld
-
+
+
+01/06/2010 09:49:52, 78 ==> Log: DisablePic: . 0 Has Been Successfully Disabled
+
+
 01/06/2010 09:49:52, 79 ==> Error: ValidateFields: . this.addPicGallerySelector.SelectedValue == ""
-
+
+
 31/05/2010 21:17:57, 8 ==> Error: removeSongButton_Click: . p == null
-
+
+
 01/06/2010 09:49:52, 80 ==> Log: AddAllArtistsPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 09:49:52, 81 ==> Log: UpdatePic: . 0 Was Successfully Updated
-
+
+
 01/06/2010 09:49:52, 82 ==> Log: AddAllArtistsPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 09:49:52, 83 ==> Log: UpdatePic: . 0 Was Successfully Updated
-
+
+
 01/06/2010 09:49:52, 84 ==> Log: AddAllArtistsPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 09:49:52, 85 ==> Log: UpdatePic: . 0 Was Successfully Updated
-
+
+
 01/06/2010 11:15:45, 86 ==> Log: AddAllArtistsPic: . 1 Was Successfully Added
-
+
+
 01/06/2010 11:15:45, 87 ==> Error: UpdatePic: . (!this.Master._PapaDal.CheckAvailablePlaceExcept
            ("allArtistsPic", g.GalleryPlace, int.Parse(this.allArtistsPicPlace.Text)))
-
+
+
 01/06/2010 11:15:45, 88 ==> Log: RemoveGallery: The DELETE statement conflicted with the REFERENCE constraint "FK_AllArtistPic_Gallery". The conflict occurred in database "Papaito3", table "dbo.AllArtistPic", column 'GalleryID'.
 The statement has been terminated.
-
+
+
 01/06/2010 11:21:15, 89 ==> Log: RemoveGallery: The DELETE statement conflicted with the REFERENCE constraint "FK_AllArtistPic_Gallery". The conflict occurred in database "Papaito3", table "dbo.AllArtistPic", column 'GalleryID'.
 The statement has been terminated.
-
+
+
 31/05/2010 21:17:57, 9 ==> Log: AddSong: . 0 Was Successfully Added
-
+
+
 01/06/2010 11:21:15, 90 ==> Log: RemoveGallery: . 1 Was Successfully Removed
-
+
+
 01/06/2010 11:21:15, 91 ==> Log: AddAllArtistsGallery: . גכגד Was Successfully Added
-
+
+
 01/06/2010 11:21:15, 92 ==> Log: AddAllArtistsPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 11:21:15, 93 ==> Log: AddAllArtistsPic: . 1 Was Successfully Added
-
+
+
 01/06/2010 11:21:15, 94 ==> Log: RemoveGallery: The DELETE statement conflicted with the REFERENCE constraint "FK_AllArtistPic_Gallery". The conflict occurred in database "Papaito3", table "dbo.AllArtistPic", column 'GalleryID'.
 The statement has been terminated.
-
+
+
 01/06/2010 11:21:15, 95 ==> Log: RemoveGallery: . 0 Was Successfully Removed
-
+
+
 01/06/2010 11:21:15, 96 ==> Log: AddAllArtistsGallery: . ניסוי Was Successfully Added
-
+
+
 01/06/2010 11:21:15, 97 ==> Log: AddAllArtistsPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 11:21:15, 98 ==> Error: ValidateFields: . (r > 16)
-
+
+
 01/06/2010 11:21:15, 99 ==> Error: ValidateFields: . (r > 16)
-
+
+
 This Is Coaching's Logs From 01/06/2010 14:08:45:
-
+
+
 01/06/2010 11:21:15, 0 ==> Error: ValidateFields: . (r > 16)
-
+
+
 01/06/2010 11:21:15, 1 ==> Log: AddAllArtistsPic: . 1 Was Successfully Added
-
+
+
 01/06/2010 11:21:15, 10 ==> Log: AddAllArtistsPic: . 1 Was Successfully Added
-
+
+
 01/06/2010 11:21:15, 11 ==> Log: RemoveGallery: . 0 Was Successfully Removed
-
+
+
 01/06/2010 12:20:06, 12 ==> Error: ValidateFields: . this.publishGalleryNameEn.Text == ""
-
+
+
 01/06/2010 12:20:06, 13 ==> Error: ValidateFields: . this.publishGalleryNameEn.Text == ""
-
+
+
 01/06/2010 12:20:06, 14 ==> Error: ValidateFields: . this.publishGalleryPlace.Text == ""
-
+
+
 01/06/2010 12:20:06, 15 ==> Error: ValidateFields: . (i < 0)
-
+
+
 01/06/2010 12:20:06, 16 ==> Error: AddPublishGallery: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
-
+
+
 01/06/2010 12:20:06, 17 ==> Error: AddPublishGallery: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
-
+
+
 01/06/2010 12:20:06, 18 ==> Log: AddPublishGallery: . 0 Was Successfully Added
-
+
+
 01/06/2010 12:20:06, 19 ==> Log: AddPublishGallery: . 0 Was Successfully Added
-
+
+
 01/06/2010 11:21:15, 2 ==> Log: RemoveGallery: . 0 Was Successfully Removed
-
+
+
 01/06/2010 12:20:06, 20 ==> Log: UpdateGallery: . 0 Was Successfully Updated
-
+
+
 01/06/2010 12:20:06, 21 ==> Log: UpdateGallery: Object reference not set to an instance of an object.
-
+
+
 01/06/2010 12:20:06, 22 ==> Log: UpdateGallery: . 0 Was Successfully Updated
-
+
+
 01/06/2010 12:20:06, 23 ==> Log: UpdateGallery: . 0 Was Successfully Updated
-
+
+
 01/06/2010 12:20:06, 24 ==> Log: UpdateGallery: . 0 Was Successfully Updated
-
+
+
 01/06/2010 12:20:06, 25 ==> Log: AddPublishGallery: . 1 Was Successfully Added
-
+
+
 01/06/2010 12:20:06, 26 ==> Error: UpdateGallery: . (!this.Master._PapaDal.CheckAvailablePlaceExcept
            ("publishGallery", g.GalleryPlace, int.Parse(this.publishGalleryPlace.Text)))
-
+
+
 01/06/2010 12:20:06, 27 ==> Error: AddPublishGallery: . (!this.Master._PapaDal.CheckAvailablePlace
                 ("publishGallery", int.Parse(this.publishGalleryPlace.Text)))
-
+
+
 01/06/2010 12:20:06, 28 ==> Error: ValidateFields: . this.publishPicUpload.Value == ""
-
+
+
 01/06/2010 12:20:06, 29 ==> Error: ValidateFields: . this.publishPicUpload.Value == ""
-
+
+
 01/06/2010 11:21:15, 3 ==> Log: AddAllArtistsGallery: . ניסוי Was Successfully Added
-
+
+
 01/06/2010 12:20:06, 30 ==> Error: ValidateFields: . this.addPicGallerySelector.SelectedValue == ""
-
+
+
 01/06/2010 12:20:06, 31 ==> Error: ValidateFields: . this.publishPicTextHe.Text == ""
-
+
+
 01/06/2010 12:20:06, 32 ==> Error: ValidateFields: . this.publishPicTextEn.Text == ""
-
+
+
 01/06/2010 12:20:06, 33 ==> Error: ValidateFields: . this.publishGalleryPlace.Text == ""
-
+
+
 01/06/2010 12:20:06, 34 ==> Error: ValidateFields: . (v < 0)
-
+
+
 01/06/2010 12:20:06, 35 ==> Error: ValidateFields: . (v > 16)
-
+
+
 01/06/2010 12:20:06, 36 ==> Error: AddPublishPic: Input string was not in a correct format.
-
+
+
 01/06/2010 12:20:06, 37 ==> Error: AddPublishPic: Input string was not in a correct format.
-
+
+
 01/06/2010 12:20:06, 38 ==> Error: AddPublishPic: Input string was not in a correct format.
-
+
+
 01/06/2010 12:20:06, 39 ==> Error: AddPublishPic: Input string was not in a correct format.
-
+
+
 01/06/2010 11:21:15, 4 ==> Log: AddAllArtistsPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 12:20:06, 40 ==> Log: AddPublishPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 12:20:06, 41 ==> Error: ValidateFields: . (v > 16)
-
-01/06/2010 12:20:06, 42 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPicTop", 
+
+
+01/06/2010 12:20:06, 42 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPicTop",
                     int.Parse(this.topPlaceSelector.SelectedValue))
-
-01/06/2010 12:20:06, 43 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPicTop", 
+
+
+01/06/2010 12:20:06, 43 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPicTop",
                     int.Parse(this.topPlaceSelector.SelectedValue))
-
+
+
 01/06/2010 12:20:06, 44 ==> Error: removePublishPicGalleryButton_Click: . p == null
-
-01/06/2010 12:20:06, 45 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPicTop", 
+
+
+01/06/2010 12:20:06, 45 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPicTop",
                     int.Parse(this.topPlaceSelector.SelectedValue))
-
-01/06/2010 12:55:42, 46 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPic", 
+
+
+01/06/2010 12:55:42, 46 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPic",
                     int.Parse(this.publishPicPlace.Text))
-
+
+
 01/06/2010 12:55:42, 47 ==> Log: AddPublishPic: . 1 Was Successfully Added
-
-01/06/2010 12:55:42, 48 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPic", 
+
+
+01/06/2010 12:55:42, 48 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPic",
                     int.Parse(this.publishPicPlace.Text))
-
-01/06/2010 12:55:42, 49 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPic", 
+
+
+01/06/2010 12:55:42, 49 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPic",
                     int.Parse(this.publishPicPlace.Text))
-
+
+
 01/06/2010 11:21:15, 5 ==> Log: AddAllArtistsPic: . 1 Was Successfully Added
-
-01/06/2010 12:55:42, 50 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPic", 
+
+
+01/06/2010 12:55:42, 50 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPic",
                     int.Parse(this.publishPicPlace.Text))
-
-01/06/2010 13:19:07, 51 ==> Error: AddPublishPic: . (!this.Master._PapaDal.CheckAvailableGalleriesPicturePlace("publishPic", ID, 
+
+
+01/06/2010 13:19:07, 51 ==> Error: AddPublishPic: . (!this.Master._PapaDal.CheckAvailableGalleriesPicturePlace("publishPic", ID,
             int.Parse(this.publishPicPlace.Text)))
-
-01/06/2010 13:19:07, 52 ==> Error: AddPublishPic: . (!this.Master._PapaDal.CheckAvailableGalleriesPicturePlace("publishPic", ID, 
+
+
+01/06/2010 13:19:07, 52 ==> Error: AddPublishPic: . (!this.Master._PapaDal.CheckAvailableGalleriesPicturePlace("publishPic", ID,
             int.Parse(this.publishPicPlace.Text)))
-
-01/06/2010 13:19:07, 53 ==> Error: AddPublishPic: . (!this.Master._PapaDal.CheckAvailableGalleriesPicturePlace("publishPic", ID, 
+
+
+01/06/2010 13:19:07, 53 ==> Error: AddPublishPic: . (!this.Master._PapaDal.CheckAvailableGalleriesPicturePlace("publishPic", ID,
             int.Parse(this.publishPicPlace.Text)))
-
+
+
 01/06/2010 13:19:07, 54 ==> Log: AddPublishPic: . 2 Was Successfully Added
-
+
+
 01/06/2010 13:19:07, 55 ==> Error: ValidateFields: . this.publishPicHiddenUp.Value == ""
-
+
+
 01/06/2010 13:19:07, 56 ==> Error: removePublishPicGalleryButton_Click: . p == null
-
+
+
 01/06/2010 13:19:07, 57 ==> Log: RemoveGallery: . 0 Was Successfully Removed
-
+
+
 01/06/2010 13:19:07, 58 ==> Log: RemoveGallery: The DELETE statement conflicted with the REFERENCE constraint "FK_PublishPic_Gallery". The conflict occurred in database "Papaito3", table "dbo.PublishPic", column 'GalleryID'.
 The statement has been terminated.
-
+
+
 01/06/2010 13:19:07, 59 ==> Log: RemoveGallery: The DELETE statement conflicted with the REFERENCE constraint "FK_PublishPic_Gallery". The conflict occurred in database "Papaito3", table "dbo.PublishPic", column 'GalleryID'.
 The statement has been terminated.
-
+
+
 01/06/2010 11:21:15, 6 ==> Log: RemoveGallery: . 0 Was Successfully Removed
-
+
+
 01/06/2010 13:19:07, 60 ==> Log: RemoveGallery: The DELETE statement conflicted with the REFERENCE constraint "FK_PublishPic_Gallery". The conflict occurred in database "Papaito3", table "dbo.PublishPic", column 'GalleryID'.
 The statement has been terminated.
-
+
+
 01/06/2010 13:43:15, 61 ==> Log: RemoveGallery: . 1 Was Successfully Removed
-
+
+
 01/06/2010 13:43:15, 62 ==> Log: AddPublishGallery: . 0 Was Successfully Added
-
+
+
 01/06/2010 13:43:15, 63 ==> Log: AddPublishPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 13:43:15, 64 ==> Error: ValidateFields: . this.addPicGallerySelector.SelectedValue == ""
-
+
+
 01/06/2010 13:43:15, 65 ==> Log: AddPublishGallery: . 1 Was Successfully Added
-
+
+
 01/06/2010 13:43:15, 66 ==> Log: AddPublishPic: . 1 Was Successfully Added
-
+
+
 01/06/2010 13:43:15, 67 ==> Error: ValidateFields: . this.publishPicHiddenUp.Value == ""
-
+
+
 01/06/2010 13:43:15, 68 ==> Error: removePublishPicGalleryButton_Click: . p == null
-
+
+
 01/06/2010 13:43:15, 69 ==> Log: RemoveGallery: . 0 Was Successfully Removed
-
-01/06/2010 11:21:15, 7 ==> Error: DeletePictures: . p == null
-
+
+
+01/06/2010 11:21:15, 7 ==> Error: DeletePictures: . p == nullDisabled
+
+
 01/06/2010 13:43:15, 70 ==> Log: RemoveGallery: . 1 Was Successfully Removed
-
+
+
 01/06/2010 13:43:15, 71 ==> Error: removePublishGalleryButton_Click: . p == null
-
+
+
 01/06/2010 13:43:15, 72 ==> Log: AddPublishGallery: . 0 Was Successfully Added
-
+
+
 01/06/2010 13:43:15, 73 ==> Log: RemoveGallery: . 0 Was Successfully Removed
-
+
+
 01/06/2010 13:43:15, 74 ==> Log: AddPublishGallery: . 0 Was Successfully Added
-
+
+
 01/06/2010 13:43:15, 75 ==> Log: AddPublishPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 13:43:15, 76 ==> Log: AddPublishGallery: . 1 Was Successfully Added
-
+
+
 01/06/2010 13:43:15, 77 ==> Log: AddPublishPic: . 1 Was Successfully Added
-
+
+
 01/06/2010 13:43:15, 78 ==> Log: AddPublishPic: . 2 Was Successfully Added
-
+
+
 01/06/2010 13:43:15, 79 ==> Log: AddPublishPic: . 2 Was Successfully Added
-
+
+
 01/06/2010 11:21:15, 8 ==> Log: AddAllArtistsGallery: . ניסוי Was Successfully Added
-
+
+
 01/06/2010 13:43:15, 80 ==> Log: RemoveGallery: . 1 Was Successfully Removed
-
+
+
 01/06/2010 13:43:15, 81 ==> Log: RemoveGallery: . 0 Was Successfully Removed
-
+
+
 01/06/2010 13:43:15, 82 ==> Log: AddPublishGallery: . 0 Was Successfully Added
-
+
+
 01/06/2010 13:43:15, 83 ==> Log: AddPublishPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 13:43:15, 84 ==> Log: AddPublishPic: . 1 Was Successfully Added
-
+
+
 01/06/2010 13:43:15, 85 ==> Log: RemoveGallery: . 0 Was Successfully Removed
-
+
+
 01/06/2010 14:08:45, 86 ==> Log: AddPublishGallery: . 0 Was Successfully Added
-
+
+
 01/06/2010 14:08:45, 87 ==> Log: AddPublishPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 14:08:45, 88 ==> Log: AddPublishPic: . 1 Was Successfully Added
-
+
+
 01/06/2010 14:08:45, 89 ==> Error: removePublishPicGalleryButton_Click: . p == null
-
+
+
 01/06/2010 11:21:15, 9 ==> Log: AddAllArtistsPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 14:08:45, 90 ==> Error: removePublishPicGalleryButton_Click: . p == null
-
+
+
 01/06/2010 14:08:45, 91 ==> Log: UpdatePic: Input string was not in a correct format.
-
+
+
 01/06/2010 14:08:45, 92 ==> Log: UpdatePic: Input string was not in a correct format.
-
+
+
 01/06/2010 14:08:45, 93 ==> Log: UpdatePic: . 0 Was Successfully Updated
-
-01/06/2010 14:08:45, 94 ==> Error: AddPublishPic: . (!this.Master._PapaDal.CheckAvailableGalleriesPicturePlace("publishPic", ID, 
+
+
+01/06/2010 14:08:45, 94 ==> Error: AddPublishPic: . (!this.Master._PapaDal.CheckAvailableGalleriesPicturePlace("publishPic", ID,
             int.Parse(this.publishPicPlace.Text)))
-
+
+
 01/06/2010 14:08:45, 95 ==> Log: RemoveGallery: . 0 Was Successfully Removed
-
+
+
 01/06/2010 14:08:45, 96 ==> Log: AddPublishGallery: . 0 Was Successfully Added
-
+
+
 01/06/2010 14:08:45, 97 ==> Log: AddPublishPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 14:08:45, 98 ==> Log: AddPublishPic: . 1 Was Successfully Added
-
+
+
 01/06/2010 14:08:45, 99 ==> Error: AddPublishGallery: . (!this.Master._PapaDal.CheckAvailablePlace
                 ("publishGallery", int.Parse(this.publishGalleryPlace.Text)))
-
+
+
 This Is Coaching's Logs From 01/06/2010 16:52:33:
-
+
+
 01/06/2010 14:08:45, 0 ==> Log: AddPublishGallery: . 1 Was Successfully Added
-
+
+
 01/06/2010 14:08:45, 1 ==> Log: AddPublishPic: . 1 Was Successfully Added
-
+
+
 01/06/2010 14:31:31, 10 ==> Log: RemoveGallery: . 0 Was Successfully Removed
-
+
+
 01/06/2010 14:31:31, 11 ==> Log: AddPublishGallery: . 0 Was Successfully Added
-
+
+
 01/06/2010 14:31:31, 12 ==> Log: AddPublishPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 14:31:31, 13 ==> Error: AddPublishGallery: . (!this.Master._PapaDal.CheckAvailablePlace
                 ("publishGallery", int.Parse(this.publishGalleryPlace.Text)))
-
+
+
 01/06/2010 14:31:31, 14 ==> Log: AddPublishGallery: . 1 Was Successfully Added
-
+
+
 01/06/2010 14:31:31, 15 ==> Error: ValidateFields: . (v > 16)
-
-01/06/2010 14:31:31, 16 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPicTop", 
+
+
+01/06/2010 14:31:31, 16 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPicTop",
                     int.Parse(this.topPlaceSelector.SelectedValue))
-
+
+
 01/06/2010 14:31:31, 17 ==> Log: AddPublishPic: . 1 Was Successfully Added
-
+
+
 01/06/2010 14:31:31, 18 ==> Error: UpdatePic: . !this.Master._PapaDal.CheckAvailablePlaceExcept("publishPicTop",
                              (int)p.TopPagePlace, int.Parse(this.topPlaceSelector.SelectedValue.Remove(0,1)))
-
+
+
 01/06/2010 14:31:31, 19 ==> Error: removePublishPicGalleryButton_Click: . p == null
-
+
+
 01/06/2010 14:08:45, 2 ==> Log: UpdatePic: . 1 Was Successfully Updated
-
+
+
 01/06/2010 14:31:31, 20 ==> Log: RemovePic: . 1 Was Successfully Removed
-
+
+
 01/06/2010 14:31:31, 21 ==> Log: UpdatePic: Value of member 'GalleryID' of an object of type 'PublishPic' changed.
 A member defining the identity of the object cannot be changed.
 Consider adding a new object with new identity and deleting the existing one instead.
-
+
+
 01/06/2010 14:31:31, 22 ==> Log: UpdatePic: Value of member 'GalleryID' of an object of type 'PublishPic' changed.
 A member defining the identity of the object cannot be changed.
 Consider adding a new object with new identity and deleting the existing one instead.
-
+
+
 01/06/2010 14:47:41, 23 ==> Log: AddPublishGallery: . 0 Was Successfully Added
-
+
+
 01/06/2010 14:47:41, 24 ==> Log: AddPublishGallery: . 1 Was Successfully Added
-
+
+
 01/06/2010 14:47:41, 25 ==> Log: AddPublishPic: . 0 Was Successfully Added
-
+
+
 01/06/2010 14:47:41, 26 ==> Log: UpdatePic: . 0 Was Successfully Updated
-
+
+
 01/06/2010 14:47:41, 27 ==> Log: UpdatePic: . 0 Was Successfully Updated
-
+
+
 01/06/2010 14:47:41, 28 ==> Log: AddPublishPic: . 1 Was Successfully Added
-
-01/06/2010 14:47:41, 29 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPicTop", 
+
+
+01/06/2010 14:47:41, 29 ==> Error: AddPublishPic: . !this.Master._PapaDal.CheckAvailablePlace("publishPicTop",
                     int.Parse(this.topPlaceSelector.SelectedValue))
-
+
+
 01/06/2010 14:08:45, 3 ==> Log: EnablePic: . 1 Has Been Successfully Enabled
-
+
+
 01/06/2010 14:47:41, 30 ==> Error: UpdatePic: . !this.Master._PapaDal.CheckAvailablePlaceExcept("publishPicTop",
                              (int)p.TopPagePlace, int.Parse(this.topPlaceSelector.SelectedValue))
-
+
+
 01/06/2010 14:47:41, 31 ==> Log: RemoveGallery: . 0 Was Successfully Removed
-
+
+
 01/06/2010 14:47:41, 32 ==> Log: RemoveGallery: . 1 Was Successfully Removed
-
+
+
 01/06/2010 14:47:41, 33 ==> Error: ValidateFields: . this.publishPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 34 ==> Error: ValidateFields: . this.publishPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 35 ==> Error: ValidateFields: . this.publishPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 36 ==> Log: UpdateExistingStaff: . 0 Was Successfully Added
-
+
+
 01/06/2010 14:47:41, 37 ==> Error: ValidateFields: . this.publishPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 38 ==> Log: UpdateExistingStaff: . 0 Was Successfully Updated
-
+
+
 01/06/2010 14:47:41, 39 ==> Error: ValidateFields: . this.publishPicHiddenRe.Value == ""
-
+
+
 01/06/2010 14:08:45, 4 ==> Error: ValidateFields: . this.publishGalleryHiddenUp.Value == ""
-
+
+
 01/06/2010 14:47:41, 40 ==> Error: ValidateFields: . this.publishPicHiddenRe.Value == ""
-
+
+
 01/06/2010 14:47:41, 41 ==> Error: ValidateFields: . this.publishPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 42 ==> Log: UpdateExistingStaff: . 0 Was Successfully Added
-
+
+
 01/06/2010 14:47:41, 43 ==> Error: ValidateFields: . this.publishPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 44 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 45 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 46 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 47 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 48 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 49 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
-01/06/2010 14:29:03, 5 ==> Log: DisablePic: . 1 Has Been Successfully Disabeld
-
+
+
+01/06/2010 14:29:03, 5 ==> Log: DisablePic: . 1 Has Been Successfully Disabled
+
+
 01/06/2010 14:47:41, 50 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 51 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 52 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 53 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 54 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 14:47:41, 55 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 16:26:13, 56 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 16:26:13, 57 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 16:26:13, 58 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 16:26:13, 59 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 14:31:31, 6 ==> Error: removePublishPicGalleryButton_Click: . p == null
-
+
+
 01/06/2010 16:26:13, 60 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 16:26:13, 61 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 16:26:13, 62 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 16:26:13, 63 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 16:26:13, 64 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 16:26:13, 65 ==> Error: ValidateFields: . this.songPlace.Text == ""
-
+
+
 01/06/2010 16:35:01, 66 ==> Error: ValidateFields: . this.songPlace.Text == ""
-
+
+
 01/06/2010 16:35:01, 67 ==> Error: ValidateFields: . (!int.TryParse(this.songPlace.Text, out h))
-
+
+
 01/06/2010 16:35:01, 68 ==> Error: ValidateFields: . (h < 0)
-
+
+
 01/06/2010 16:35:01, 69 ==> Error: AddNewStaff: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 14:31:31, 7 ==> Error: removePublishPicGalleryButton_Click: . p == null
-
+
+
 01/06/2010 16:35:01, 70 ==> Error: AddNewStaff: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 16:35:01, 71 ==> Error: AddNewStaff: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 16:35:01, 72 ==> Log: AddNewStaff: . 0 Was Successfully Added
-
+
+
 01/06/2010 16:35:01, 73 ==> Log: AddNewStaff: . 0 Was Successfully Added
-
+
+
 01/06/2010 16:52:33, 74 ==> Log: AddNewStaff: . 1 Was Successfully Added
-
+
+
 01/06/2010 16:52:33, 75 ==> Error: ValidateFields: . this.staffPicUpload.Value == ""
-
+
+
 01/06/2010 16:52:33, 76 ==> Error: ValidateFields: . this.removeUpdateNewStaffSelector.SelectedValue == ""
-
+
+
 01/06/2010 16:52:33, 77 ==> Log: UpdateNewStaff: . 1 Was Successfully Updated
-
+
+
 01/06/2010 16:52:33, 78 ==> Log: UpdateNewStaff: . 1 Was Successfully Updated
-
+
+
 01/06/2010 16:52:33, 79 ==> Log: UpdateNewStaff: . 1 Was Successfully Updated
-
+
+
 01/06/2010 14:31:31, 8 ==> Error: removePublishPicGalleryButton_Click: . p == null
-
-01/06/2010 16:52:33, 80 ==> Error: AddNewStaff: . !this.Master._PapaDal.CheckAvailablePlace("staffPic", 
+
+
+01/06/2010 16:52:33, 80 ==> Error: AddNewStaff: . !this.Master._PapaDal.CheckAvailablePlace("staffPic",
                     int.Parse(this.staffPlace.Text))
-
+
+
 01/06/2010 16:52:33, 81 ==> Log: AddNewStaff: . 2 Was Successfully Added
-
+
+
 01/06/2010 16:52:33, 82 ==> Error: UpdateNewStaff: . !this.Master._PapaDal.CheckAvailablePlaceExcept("staffPic",
                 p.StaffPlace, int.Parse(this.staffPlace.Text)))
-
+
+
 01/06/2010 16:52:33, 83 ==> Log: EnableNewStaff: . 2 Has Been Successfully Enabled
-
+
+
 01/06/2010 16:52:33, 84 ==> Log: DisableNewStaff: . 2 Has Been Successfully Disabled
-
+
+
 01/06/2010 16:52:33, 85 ==> Log: DisableNewStaff: . 2 Has Been Successfully Disabled
-
+
+
 01/06/2010 16:52:33, 86 ==> Log: DisableNewStaff: . 2 Has Been Successfully Disabled
-
+
+
 01/06/2010 16:52:33, 87 ==> Log: EnableNewStaff: . 1 Has Been Successfully Enabled
-
+
+
 01/06/2010 16:52:33, 88 ==> Log: DisableNewStaff: . 2 Has Been Successfully Disabled
-
+
+
 01/06/2010 16:52:33, 89 ==> Error: ValidateFields: . this.publishPicUpload.Value == ""
-
+
+
 01/06/2010 14:31:31, 9 ==> Log: RemoveGallery: . 1 Was Successfully Removed
-
+
+
 01/06/2010 16:52:33, 90 ==> Error: ValidateFields: . this.publishPicUpload.Value == ""
-
+
+
 01/06/2010 16:52:33, 91 ==> Log: RemoveNewStaff: . 2 Was Successfully Removed
-
+
+
 01/06/2010 16:52:33, 92 ==> Log: RemoveNewStaff: . 1 Was Successfully Removed
-
+
+
 01/06/2010 16:52:33, 93 ==> Log: AddNewStaff: . 1 Was Successfully Added
-
+
+
 01/06/2010 16:52:33, 94 ==> Log: EnableNewStaff: . 1 Has Been Successfully Enabled
-
+
+
 01/06/2010 16:52:33, 95 ==> Log: DisableNewStaff: . 1 Has Been Successfully Disabled
-
+
+
 01/06/2010 16:52:33, 96 ==> Log: AddNewStaff: . 2 Was Successfully Added
-
+
+
 01/06/2010 16:52:33, 97 ==> Log: EnableNewStaff: . 2 Has Been Successfully Enabled
-
+
+
 01/06/2010 16:52:33, 98 ==> Log: DisableNewStaff: . 1 Has Been Successfully Disabled
-
+
+
 01/06/2010 16:52:33, 99 ==> Log: EnableNewStaff: . 1 Has Been Successfully Enabled
-
+
+

@@ -182,7 +182,7 @@ namespace Dal
             return result;
         }
 
-        public bool ChackExistingStaff()
+        public bool CheckExistingStaff()
         {
             var r = from st in this.papaDal.Staffs
                     where st.IsExistingStaff == 1

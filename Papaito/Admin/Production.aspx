@@ -31,7 +31,7 @@
                                         Status:
                                     </td>
                                     <td>
-                                        <asp:Label ID="productuionStatusLabel" runat="server" Text=""></asp:Label>
+                                        <asp:Label ID="productionStatusLabel" runat="server" Text=""></asp:Label>
                                     </td>
                                 </tr>
                             </table>
@@ -142,7 +142,7 @@
                     </tr>
                 </table>
                 <asp:Button ID="addProductionButton" Text="Add" runat="server" OnClick="addProductionButton_Click" />
-                <asp:Button ID="diableProductionButton" Text="Disable" runat="server" OnClick="diableProductionButton_Click" />
+                <asp:Button ID="disableProductionButton" Text="Disable" runat="server" OnClick="disableProductionButton_Click" />
                 <asp:Button ID="enableProductionButton" Text="Enable" runat="server" OnClick="enableProductionButton_Click" />
                 <asp:Button ID="cancelAddProductionButton" Text="Cancel" runat="server" OnClick="cancelAddProductionButton_Click" />
             </div>
@@ -241,7 +241,7 @@
                                             </tr>
                                             <tr>
                                                 <td align="right">
-                                                    YouTube Adrress:
+                                                    YouTube Address:
                                                 </td>
                                                 <td align="left">
                                                     <asp:TextBox ID="songYoutubeAddress" runat="server" Width="200px" TextMode="MultiLine"></asp:TextBox>

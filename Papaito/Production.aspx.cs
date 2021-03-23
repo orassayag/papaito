@@ -17,7 +17,7 @@ public partial class _Production : System.Web.UI.Page
 //        {
 //            return;
 //        }
-        
+
 //        StringBuilder build = new StringBuilder(@"<ul class=""thumbPro"">");
 //        StringBuilder musicDiv = new StringBuilder();
 
@@ -69,7 +69,7 @@ public partial class _Production : System.Web.UI.Page
 //            {
 //                About.InnerText = "About";
 //                LatestRecords.InnerText = "Latest Records";
-//                LetsHearIt.InnerText = "Lets Hear It";
+//                LetsHearIt.InnerText = "Let's Hear It";
 //                //LetsHearIt.Style.Add("margin-top", "10px");
 //                HearMore.InnerText = "Wanna Hear More Artists? Click Here!";
 //                build.Append(string.Format(@"<input id=""textAbout{0}"" class=""textAboout"" style=""float:left"" type=""hidden"" value=""{1}"" />", m.ProID, m.ArtistTextEn)); //this.Session["lan"] == "he" ? m.ArtistTextHe : m.ArtistTextEn));

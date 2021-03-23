@@ -1,429 +1,631 @@
 This Is Coaching's Logs From 30/05/2010 14:34:14:
-
+
+
 30/05/2010 12:42:31, 0 ==> Error: ValidateFields: . this.lastNewsPlace.Text == ""
-
+
+
 30/05/2010 12:42:31, 1 ==> Error: ValidateFields: . this.lastNewsPlace.Text == ""
-
+
+
 30/05/2010 12:42:31, 10 ==> Log: UpdateLastRecordsPic: . 0 Was Successfully Updated
-
+
+
 30/05/2010 12:42:31, 11 ==> Log: UpdateLastRecordsPic: . 0 Was Successfully Updated
-
+
+
 30/05/2010 12:42:31, 12 ==> Error: ValidateFields: . this.headerPicHiddenUp.Value == ""
-
-30/05/2010 12:42:31, 13 ==> Warn: DisableLastRecordsPic: . 0 Is Already Disabled
-
+
+
+30/05/2010 12:42:31, 13 ==> Warn: DisableLastRecordsPic: . 0 Is Already DisabledDisabled
+
+
 30/05/2010 12:42:31, 14 ==> Error: EnableLastRecordsPic: . (!this.Master._PapaDal.CheckPlacesStatus("lastRecordsPic"))
-
+
+
 30/05/2010 12:55:55, 15 ==> Log: EnableLastRecordsPic: . 0 Has Been Successfully Enabled
-
-30/05/2010 12:55:55, 16 ==> Log: DisableLastRecordsPic: . 0 Has Been Successfully Disabeld
-
+
+
+30/05/2010 12:55:55, 16 ==> Log: DisableLastRecordsPic: . 0 Has Been Successfully Disabled
+
+
 30/05/2010 12:55:55, 17 ==> Error: UpdateLastRecordsPicInit: 'lastRecordsPicPlaceSelector' has a SelectedValue which is invalid because it does not exist in the list of items.
 Parameter name: value
-
+
+
 30/05/2010 12:55:55, 18 ==> Error: UpdateLastRecordsPicInit: 'lastRecordsPicPlaceSelector' has a SelectedValue which is invalid because it does not exist in the list of items.
 Parameter name: value
-
+
+
 30/05/2010 12:55:55, 19 ==> Error: UpdateLastRecordsPicInit: 'lastRecordsPicPlaceSelector' has a SelectedValue which is invalid because it does not exist in the list of items.
 Parameter name: value
-
+Disabled
+
 30/05/2010 12:42:31, 2 ==> Error: ValidateFields: . this.homeContactTextHe.Text == ""
-
+
+
 30/05/2010 12:55:55, 20 ==> Error: UpdateLastRecordsPicInit: 'lastRecordsPicPlaceSelector' has a SelectedValue which is invalid because it does not exist in the list of items.
 Parameter name: value
-
+
+
 30/05/2010 12:55:55, 21 ==> Log: RemoveLastRecordsPic: . 0 Was Successfully Removed
-
+
+
 30/05/2010 12:55:55, 22 ==> Log: AddLastRecordsPic: . 0 Was Successfully Added
-
+
+
 30/05/2010 12:55:55, 23 ==> Log: EnableLastRecordsPic: . 0 Has Been Successfully Enabled
-
-30/05/2010 12:55:55, 24 ==> Log: DisableLastRecordsPic: . 0 Has Been Successfully Disabeld
-
+
+
+30/05/2010 12:55:55, 24 ==> Log: DisableLastRecordsPic: . 0 Has Been Successfully Disabled
+
+
 30/05/2010 12:55:55, 25 ==> Error: UpdateLastRecordsPicInit: 'lastRecordsPicPlaceSelector' has a SelectedValue which is invalid because it does not exist in the list of items.
 Parameter name: value
-
+Disabled
+
 30/05/2010 12:55:55, 26 ==> Log: RemoveLastRecordsPic: . 0 Was Successfully Removed
-
+
+
 30/05/2010 12:55:55, 27 ==> Log: AddLastRecordsPic: . 0 Was Successfully Added
-
+
+
 30/05/2010 12:55:55, 28 ==> Error: AddLastRecordsPic: . (!this.Master._PapaDal.CheckAvailablePlace("lastRecordsPic",
             int.Parse(this.lastRecordsPicPlaceSelector.SelectedValue)))
-
+
+
 30/05/2010 12:55:55, 29 ==> Error: AddLastRecordsPic: . (!this.Master._PapaDal.CheckAvailablePlace("lastRecordsPic",
             int.Parse(this.lastRecordsPicPlaceSelector.SelectedValue)))
-
+
+
 30/05/2010 12:42:31, 3 ==> Log: UpdateLastRecordsPic: . 0 Was Successfully Updated
-
+
+
 30/05/2010 12:55:55, 30 ==> Log: AddLastRecordsPic: . 1 Was Successfully Added
-
+Disabled
+
 30/05/2010 12:55:55, 31 ==> Log: EnableLastRecordsPic: . 1 Has Been Successfully Enabled
-
+
+
 30/05/2010 12:55:55, 32 ==> Log: EnableLastRecordsPic: . 0 Has Been Successfully Enabled
-
-30/05/2010 12:55:55, 33 ==> Log: DisableLastRecordsPic: . 0 Has Been Successfully Disabeld
-
+
+
+30/05/2010 12:55:55, 33 ==> Log: DisableLastRecordsPic: . 0 Has Been Successfully Disabled
+
+
 30/05/2010 12:55:55, 34 ==> Error: UpdateLastRecordsPicInit: 'lastRecordsPicPlaceSelector' has a SelectedValue which is invalid because it does not exist in the list of items.
 Parameter name: value
-
+
+
 30/05/2010 12:55:55, 35 ==> Error: UpdateLastRecordsPicInit: 'lastRecordsPicPlaceSelector' has a SelectedValue which is invalid because it does not exist in the list of items.
 Parameter name: value
-
+
+
 30/05/2010 12:55:55, 36 ==> Error: UpdateLastRecordsPicInit: 'lastRecordsPicPlaceSelector' has a SelectedValue which is invalid because it does not exist in the list of items.
 Parameter name: value
-
+
+
 30/05/2010 12:55:55, 37 ==> Error: UpdateLastRecordsPic: . (!this.Master._PapaDal.CheckAvailablePlaceExcept("lastRecordsPic",
             g.PicPlace, int.Parse(this.lastRecordsPicPlaceSelector.SelectedValue)))
-
+
+
 30/05/2010 12:55:55, 38 ==> Log: UpdateLastRecordsPic: . 1 Was Successfully Updated
-
+
+
 30/05/2010 12:55:55, 39 ==> Log: UpdateLastRecordsPic: . 1 Was Successfully Updated
-
+
+
 30/05/2010 12:42:31, 4 ==> Log: UpdateLastRecordsPic: Object reference not set to an instance of an object.
-
-30/05/2010 12:55:55, 40 ==> Log: DisableLastRecordsPic: . 1 Has Been Successfully Disabeld
-
+
+
+30/05/2010 12:55:55, 40 ==> Log: DisableLastRecordsPic: . 1 Has Been Successfully Disabled
+
+
 30/05/2010 12:55:55, 41 ==> Log: EnableLastRecordsPic: . 1 Has Been Successfully Enabled
-
+
+
 30/05/2010 12:55:55, 42 ==> Log: UpdateLastRecordsPic: . 0 Was Successfully Updated
-
+
+
 30/05/2010 12:55:55, 43 ==> Log: RemoveLastRecordsPic: . 0 Was Successfully Removed
-
+
+
 30/05/2010 12:55:55, 44 ==> Log: RemoveLastRecordsPic: . 1 Was Successfully Removed
-
+
+
 30/05/2010 12:55:55, 45 ==> Log: AddLastRecordsPic: . 0 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 46 ==> Log: AddLastRecordsPic: . 1 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 47 ==> Log: AddLastRecordsPic: . 2 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 48 ==> Log: AddLastRecordsPic: . 3 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 49 ==> Log: AddLastRecordsPic: . 4 Was Successfully Added
-
+
+
 30/05/2010 12:42:31, 5 ==> Log: UpdateLastRecordsPic: . 0 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 50 ==> Log: AddLastRecordsPic: . 5 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 51 ==> Log: AddLastRecordsPic: . 6 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 52 ==> Log: AddLastRecordsPic: . 7 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 53 ==> Log: AddLastRecordsPic: . 8 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 54 ==> Log: AddLastRecordsPic: . 9 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 55 ==> Log: AddLastRecordsPic: . 10 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 56 ==> Log: AddLastRecordsPic: . 11 Was Successfully Added
-
+
+Disabled
 30/05/2010 14:34:14, 57 ==> Log: AddLastRecordsPic: . 12 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 58 ==> Log: UpdateLastRecordsPic: . 0 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 59 ==> Log: EnableLastRecordsPic: . 0 Has Been Successfully Enabled
-
+
+
 30/05/2010 12:42:31, 6 ==> Log: UpdateLastRecordsPic: Object reference not set to an instance of an object.
-
+
+
 30/05/2010 14:34:14, 60 ==> Log: EnableLastRecordsPic: . 1 Has Been Successfully Enabled
-
+
+
 30/05/2010 14:34:14, 61 ==> Log: EnableLastRecordsPic: . 8 Has Been Successfully Enabled
-
+
+
 30/05/2010 14:34:14, 62 ==> Log: EnableLastRecordsPic: . 4 Has Been Successfully Enabled
-
-30/05/2010 14:34:14, 63 ==> Log: EnableLastRecordsPic: . 2 Has Been Successfully Enabled
-
+
+
+30/05/2010 14:34:14, 63 ==> Log: EnableLastRecordsPic: . 2 Has Been SuccessfullDisabledd
+
+
 30/05/2010 14:34:14, 64 ==> Log: EnableLastRecordsPic: . 12 Has Been Successfully Enabled
-
+
+
 30/05/2010 14:34:14, 65 ==> Log: EnableLastRecordsPic: . 10 Has Been Successfully Enabled
-
+
+
 30/05/2010 14:34:14, 66 ==> Log: EnableLastRecordsPic: . 7 Has Been Successfully Enabled
-
+
+
 30/05/2010 14:34:14, 67 ==> Log: EnableLastRecordsPic: . 11 Has Been Successfully Enabled
-
+
+
 30/05/2010 14:34:14, 68 ==> Log: EnableLastRecordsPic: . 3 Has Been Successfully Enabled
-
+
+
 30/05/2010 14:34:14, 69 ==> Log: EnableLastRecordsPic: . 5 Has Been Successfully Enabled
-
+
+
 30/05/2010 12:42:31, 7 ==> Log: UpdateLastRecordsPic: . 0 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 70 ==> Log: UpdateLastRecordsPic: . 0 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 71 ==> Log: UpdateLastRecordsPic: . 1 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 72 ==> Log: UpdateLastRecordsPic: . 10 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 73 ==> Log: UpdateLastRecordsPic: . 11 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 74 ==> Log: UpdateLastRecordsPic: . 12 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 75 ==> Log: UpdateLastRecordsPic: . 2 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 76 ==> Log: UpdateLastRecordsPic: . 4 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 77 ==> Log: UpdateLastRecordsPic: . 6 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 78 ==> Log: UpdateLastRecordsPic: . 7 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 79 ==> Error: UpdateLastRecordsPic: . (!this.Master._PapaDal.CheckAvailablePlaceExcept("lastRecordsPic",
             g.PicPlace, int.Parse(this.lastRecordsPicPlaceSelector.SelectedValue)))
-
+
+
 30/05/2010 12:42:31, 8 ==> Log: UpdateLastRecordsPic: Object reference not set to an instance of an object.
-
-30/05/2010 14:34:14, 80 ==> Log: DisableLastRecordsPic: . 0 Has Been Successfully Disabeld
-
+Disabled
+
+30/05/2010 14:34:14, 80 ==> Log: DisableLastRecordsPic: . 0 Has Been Successfully Disabled
+
+
 30/05/2010 14:34:14, 81 ==> Log: UpdateLastRecordsPic: . 8 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 82 ==> Error: ValidateFields: . this.willComeBWPicUpload.Value == ""
-
+
+
 30/05/2010 14:34:14, 83 ==> Error: ValidateFields: . this.willComeBWPicUpload.Value == ""
-
+
+
 30/05/2010 14:34:14, 84 ==> Error: ValidateFields: . this.willComeColorPicUpload.Value == ""
-
+
+
 30/05/2010 14:34:14, 85 ==> Error: AddWillComePic: Input string was not in a correct format.
-
+
+
 30/05/2010 14:34:14, 86 ==> Log: AddWillComePic: . 0 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 87 ==> Log: AddWillComePic: . 1 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 88 ==> Log: EnableWillComePic: . 0 Has Been Successfully Enabled
-
+
+
 30/05/2010 14:34:14, 89 ==> Log: UpdateWillComePic: . 0 Was Successfully Updated
-
+
+
 30/05/2010 12:42:31, 9 ==> Log: UpdateLastRecordsPic: . 0 Was Successfully Updated
-
-30/05/2010 14:34:14, 90 ==> Log: DisableWillComePic: . 0 Has Been Successfully Disabeld
-
+
+
+30/05/2010 14:34:14, 90 ==> Log: DisableWillComePic: . 0 Has Been Successfully Disabled
+
+
 30/05/2010 14:34:14, 91 ==> Log: AddWillComePic: . 2 Was Successfully Added
-
+Disabled
+
 30/05/2010 14:34:14, 92 ==> Log: AddWillComePic: . 3 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 93 ==> Log: UpdateWillComePic: . 0 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 94 ==> Log: EnableWillComePic: . 0 Has Been Successfully Enabled
-
+
+
 30/05/2010 14:34:14, 95 ==> Log: UpdateWillComePic: . 1 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 96 ==> Log: EnableWillComePic: . 1 Has Been Successfully Enabled
-
+
+
 30/05/2010 14:34:14, 97 ==> Log: UpdateWillComePic: . 2 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 98 ==> Log: EnableWillComePic: . 2 Has Been Successfully Enabled
-
+
+
 30/05/2010 14:34:14, 99 ==> Log: UpdateWillComePic: . 3 Was Successfully Updated
-
+
+
 This Is Coaching's Logs From 30/05/2010 20:00:45:
-
+
+
 30/05/2010 14:34:14, 0 ==> Log: RemoveWillComePic: . 3 Was Successfully Removed
-
+
+
 30/05/2010 14:34:14, 1 ==> Error: AddWillComePic: . (!this.Master._PapaDal.CheckAvailablePlace("willComePic",
                 int.Parse(this.willComePicPlaceSelector.SelectedValue)))
-
+
+
 30/05/2010 14:34:14, 10 ==> Log: AddWillComePic: . 0 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 11 ==> Log: AddWillComePic: . 1 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 12 ==> Log: AddWillComePic: . 2 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 13 ==> Log: AddWillComePic: . 3 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 14 ==> Log: UpdateWillComePic: . 0 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 15 ==> Log: UpdateWillComePic: . 1 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 16 ==> Log: UpdateWillComePic: . 2 Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 17 ==> Error: UpdateWillComePic: . (!this.Master._PapaDal.CheckAvailablePlaceExcept("willComePic",
             g.PicPlace, int.Parse(this.removeUpdateWillComePicSelector.SelectedValue)))
-
+
+
 30/05/2010 14:34:14, 18 ==> Log: EnableWillComePic: . 0 Has Been Successfully Enabled
-
+
+
 30/05/2010 14:34:14, 19 ==> Log: EnableWillComePic: . 1 Has Been Successfully Enabled
-
+
+
 30/05/2010 14:34:14, 2 ==> Log: AddWillComePic: . 3 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 20 ==> Log: EnableWillComePic: . 2 Has Been Successfully Enabled
-
+
+
 30/05/2010 14:34:14, 21 ==> Error: EnableWillComePic: . (!this.Master._PapaDal.CheckPlacesStatus("willComePic"))
-
+
+
 30/05/2010 14:34:14, 22 ==> Log: UpdateWillComePic: . 1 Was Successfully Updated
-
-30/05/2010 14:34:14, 23 ==> Log: DisableWillComePic: . 1 Has Been Successfully Disabeld
-
+
+
+30/05/2010 14:34:14, 23 ==> Log: DisableWillComePic: . 1 Has Been Successfully Disabled
+
+
 30/05/2010 14:34:14, 24 ==> Log: RemoveWillComePic: . 1 Was Successfully Removed
-
+
+
 30/05/2010 14:34:14, 25 ==> Error: ValidateFields: . this.headerPicPlace.Text == ""
-
+
+
 30/05/2010 14:34:14, 26 ==> Error: AddLastNews: parsing "[^(?:[A-Z]|$)]" - Too many )'s.
-
+
+
 30/05/2010 14:34:14, 27 ==> Error: AddLastNews: parsing "[^(?:[A-Z]|$)]" - Too many )'s.
-
+
+
 30/05/2010 15:35:39, 28 ==> Error: AddLastNews: Cannot insert the value NULL into column 'NewsHeConverted', table 'Papaito3.dbo.LastNews'; column does not allow nulls. INSERT fails.
 The statement has been terminated.
-
+
+
 30/05/2010 15:35:39, 29 ==> Error: AddLastNews: Cannot insert the value NULL into column 'NewsHeConverted', table 'Papaito3.dbo.LastNews'; column does not allow nulls. INSERT fails.
 The statement has been terminated.
-
+
+
 30/05/2010 14:34:14, 3 ==> Error: EnableWillComePic: . (!this.Master._PapaDal.CheckPlacesStatus("willComePic"))
-
+
+
 30/05/2010 15:38:23, 30 ==> Log: AddLastNews: . 0 Was Successfully Added
-
+
+
 30/05/2010 15:38:23, 31 ==> Error: UpdateLastNewsInit: . p == null
-
+
+
 30/05/2010 15:38:23, 32 ==> Error: UpdateLastNewsInit: . p == null
-
+
+
 30/05/2010 15:38:23, 33 ==> Error: UpdateLastNewsInit: . p == null
-
+
+
 30/05/2010 15:38:23, 34 ==> Log: UpdateLastNews: . 0 Was Successfully Updated
-
+
+
 30/05/2010 15:38:23, 35 ==> Log: UpdateLastNews: . 0 Was Successfully Updated
-
+
+
 30/05/2010 15:38:23, 36 ==> Error: ValidateFields: . this.lastNewsTextEn.Text == ""
-
+
+
 30/05/2010 15:50:10, 37 ==> Error: ValidateFields: . this.lastNewsTextEn.Text == ""
-
+
+
 30/05/2010 15:50:10, 38 ==> Log: AddLastNews: . 1 Was Successfully Added
-
+
+
 30/05/2010 15:50:10, 39 ==> Error: AddLastNews: . (!this.Master._PapaDal.CheckAvailablePlace("lastNews",
             int.Parse(this.lastNewsPlace.Text)))
-
-30/05/2010 14:34:14, 4 ==> Log: DisableWillComePic: . 1 Has Been Successfully Disabeld
-
+
+
+30/05/2010 14:34:14, 4 ==> Log: DisableWillComePic: . 1 Has Been Successfully Disabled
+
+
 30/05/2010 15:50:10, 40 ==> Error: UpdateLastNews: . (!this.Master._PapaDal.CheckAvailablePlaceExcept("lastNews",
             g.NewsPlace, int.Parse(this.lastNewsPlace.Text)))
-
+
+
 30/05/2010 15:50:10, 41 ==> Log: RemoveLastNews: . 0 Was Successfully Removed
-
+
+
 30/05/2010 15:50:10, 42 ==> Log: RemoveLastNews: . 1 Was Successfully Removed
-
+
+
 30/05/2010 15:50:10, 43 ==> Error: ValidateFields: . this.headerPicHiddenUp.Value == ""
-
+
+
 30/05/2010 15:50:10, 44 ==> Log: UpdateContactAndAbout: . Home Contact And About Was Successfully Updated
-
+
+
 30/05/2010 15:50:10, 45 ==> Log: UpdateContactAndAbout: . Home Contact And About Was Successfully Updated
-
+
+
 30/05/2010 15:50:10, 46 ==> Log: UpdateContactAndAbout: . Home Contact And About Was Successfully Updated
-
+
+
 30/05/2010 15:50:10, 47 ==> Log: UpdateContactAndAbout: . Home Contact And About Was Successfully Updated
-
+
+
 30/05/2010 15:50:10, 48 ==> Log: UpdateContactAndAbout: . Home Contact And About Was Successfully Updated
-
+
+
 30/05/2010 15:50:10, 49 ==> Log: UpdateContactAndAbout: . Home Contact And About Was Successfully Updated
-
+
+
 30/05/2010 14:34:14, 5 ==> Log: EnableWillComePic: . 3 Has Been Successfully Enabled
-
+
+
 30/05/2010 18:22:33, 50 ==> Error: ValidateFields: . this.removeUpdatePicSelector.SelectedValue == ""
-
+
+
 30/05/2010 18:22:33, 51 ==> Error: ValidateFields: . this.removeUpdatePicSelector.SelectedValue == ""
-
+
+
 30/05/2010 18:22:33, 52 ==> Error: AddComplexPic: . (!this.Master._PapaDal.CheckAvailablePlace("complexPic",
                     int.Parse(this.complexPicPlaceSelector.SelectedValue)))
-
+
+
 30/05/2010 18:22:33, 53 ==> Error: AddComplexPic: . (!this.Master._PapaDal.CheckAvailablePlace("complexPic",
                     int.Parse(this.complexPicPlaceSelector.SelectedValue)))
-
+
+
 30/05/2010 18:22:33, 54 ==> Error: AddComplexPic: . (!this.Master._PapaDal.CheckAvailablePlace("complexPic",
                     int.Parse(this.complexPicPlaceSelector.SelectedValue)))
-
+
+
 30/05/2010 18:22:33, 55 ==> Error: ValidateFields: . this.complexColorPicUpload.Value == ""
-
+
+
 30/05/2010 18:22:33, 56 ==> Error: AddComplexPic: . (!this.Master._PapaDal.CheckAvailablePlace("complexPic",
                     int.Parse(this.complexPicPlaceSelector.SelectedValue)))
-
+
+
 30/05/2010 18:22:33, 57 ==> Log: AddComplexPic: . 0 Was Successfully Added
-
+
+
 30/05/2010 18:22:33, 58 ==> Error: updateComplexPicButton_Click: . p == null
-
+
+
 30/05/2010 18:22:33, 59 ==> Log: AddComplexPic: . 1 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 6 ==> Log: RemoveWillComePic: . 0 Was Successfully Removed
-
+
+
 30/05/2010 18:22:33, 60 ==> Log: AddComplexPic: . 2 Was Successfully Added
-
+
+
 30/05/2010 18:22:33, 61 ==> Log: AddComplexPic: . 3 Was Successfully Added
-
+
+
 30/05/2010 18:39:52, 62 ==> Log: AddComplexPic: . 0 Was Successfully Added
-
+
+
 30/05/2010 18:39:52, 63 ==> Log: AddComplexPic: . 1 Was Successfully Added
-
+
+
 30/05/2010 18:46:02, 64 ==> Log: AddComplexPic: . 0 Was Successfully Added
-
+
+
 30/05/2010 18:46:02, 65 ==> Error: AddComplexPic: . (!this.Master._PapaDal.CheckAvailablePlace(this.complexPicTypeSelector.SelectedValue,
                     int.Parse(this.complexPicPlaceSelector.SelectedValue)))
-
+
+
 30/05/2010 18:46:02, 66 ==> Log: AddComplexPic: . 1 Was Successfully Added
-
+
+
 30/05/2010 18:46:02, 67 ==> Error: ValidateFields: . this.complexColorPicUpload.Value == ""
-
+
+
 30/05/2010 18:46:02, 68 ==> Error: ValidateFields: . this.complexTitleRoomHe.Text == ""
-
+
+
 30/05/2010 18:46:02, 69 ==> Error: AddComplexPic: . (!this.Master._PapaDal.CheckAvailablePlace(this.complexPicTypeSelector.SelectedValue,
                     int.Parse(this.complexPicPlaceSelector.SelectedValue)))
-
+
+
 30/05/2010 14:34:14, 7 ==> Log: RemoveWillComePic: . 1 Was Successfully Removed
-
+
+
 30/05/2010 18:46:02, 70 ==> Log: AddComplexPic: . 2 Was Successfully Added
-
+
+
 30/05/2010 18:46:02, 71 ==> Error: updateComplexPicButton_Click: . p == null
-
+
+
 30/05/2010 18:46:02, 72 ==> Error: updateComplexPicButton_Click: . p == null
-
+
+
 30/05/2010 18:46:02, 73 ==> Error: updateComplexPicButton_Click: . p == null
-
+
+
 30/05/2010 18:46:02, 74 ==> Error: updateComplexPicButton_Click: . p == null
-
+
+
 30/05/2010 18:46:02, 75 ==> Log: AddComplexPic: . 0 Was Successfully Added
-
+
+
 30/05/2010 18:46:02, 76 ==> Error: updateComplexPicButton_Click: . p == null
-
+
+
 30/05/2010 18:46:02, 77 ==> Error: ValidateFields: . this.complexColorPicUpload.Value == ""
-
+
+
 30/05/2010 18:46:02, 78 ==> Error: ValidateFields: . this.complexColorPicUpload.Value == ""
-
+
+
 30/05/2010 18:46:02, 79 ==> Error: ValidateFields: . this.complexColorPicUpload.Value == ""
-
+
+
 30/05/2010 14:34:14, 8 ==> Log: RemoveWillComePic: . 2 Was Successfully Removed
-
+
+
 30/05/2010 18:46:02, 80 ==> Error: ValidateFields: . this.complexColorPicUpload.Value == ""
-
+
+
 30/05/2010 18:46:02, 81 ==> Error: UpdatePic: . (!this.Master._PapaDal.CheckAvailablePlaceExcept("complexPic",
             p.PicPlace, int.Parse(this.complexPicPlace.Text)))
-
+
+
 30/05/2010 18:46:02, 82 ==> Log: UpdatePic: . 0 Was Successfully Updated
-
+
+
 30/05/2010 18:46:02, 83 ==> Log: AddComplexPic: . 0 Was Successfully Added
-
+
+
 30/05/2010 18:46:02, 84 ==> Log: UpdatePic: . 0 Was Successfully Updated
-
+
+
 30/05/2010 18:46:02, 85 ==> Log: AddComplexPic: . 1 Was Successfully Added
-
+
+
 30/05/2010 18:46:02, 86 ==> Log: AddComplexPic: . 0 Was Successfully Added
-
+
+
 30/05/2010 18:46:02, 87 ==> Error: ValidateFields: . this.complexAboutRoomEn.Text == ""
-
+
+
 30/05/2010 18:46:02, 88 ==> Log: UpdatePic: . 0 Was Successfully Updated
-
+
+
 30/05/2010 18:46:02, 89 ==> Log: AddComplexPic: . 1 Was Successfully Added
-
+
+
 30/05/2010 14:34:14, 9 ==> Log: RemoveWillComePic: . 3 Was Successfully Removed
-
+
+
 30/05/2010 18:46:02, 90 ==> Log: RemovePic: . sfsdfsd Was Successfully Removed
-
+
+
 30/05/2010 18:46:02, 91 ==> Log: UpdatePic: . 1 Was Successfully Updated
-
+
+
 30/05/2010 18:46:02, 92 ==> Log: EnablePic: . גכד Has Been Successfully Enabled
-
+
+
 30/05/2010 18:46:02, 93 ==> Log: EnablePic: . גכד Has Been Successfully Enabled
-
+
+
 30/05/2010 18:46:02, 94 ==> Log: AddComplexPic: . 0 Was Successfully Added
-
+
+
 30/05/2010 20:00:45, 95 ==> Log: UpdatePic: . 0 Was Successfully Updated
-
+
+
 30/05/2010 20:00:45, 96 ==> Error: UpdatePic: The path is not of a legal form.
-
+
+
 30/05/2010 20:00:45, 97 ==> Log: RemovePic: . דגכ Was Successfully Removed
-
+
+
 30/05/2010 20:00:45, 98 ==> Log: AddComplexPic: . 0 Was Successfully Added
-
+
+
 30/05/2010 20:00:45, 99 ==> Error: UpdatePic: The path is not of a legal form.
-
+
+

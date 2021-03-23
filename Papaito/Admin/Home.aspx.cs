@@ -34,7 +34,7 @@ public partial class Admin_Home : System.Web.UI.Page
 
             foreach (LastRecordPic p in (IEnumerable<LastRecordPic>)this.Master._PapaDal.GetAll("lastRecordsPic"))
             {
-                this.removeUpdatelastRecordsSelector.Items.Add(new ListItem(p.PicName, "s" + p.PicID));
+                this.removeUpdateLastRecordsSelector.Items.Add(new ListItem(p.PicName, "s" + p.PicID));
             }
 
             foreach (WillComePic p in (IEnumerable<WillComePic>)this.Master._PapaDal.GetAll("willComePic"))
@@ -84,7 +84,7 @@ public partial class Admin_Home : System.Web.UI.Page
         }
     }
 
-    protected void diableHeaderPicButton_Click(object sender, EventArgs e)
+    protected void disableHeaderPicButton_Click(object sender, EventArgs e)
     {
         this.DisableHeaderPic();
     }
@@ -188,7 +188,7 @@ public partial class Admin_Home : System.Web.UI.Page
         }
 
         LastRecordPic p = (LastRecordPic)this.Master._PapaDal.Get("lastRecordsPic",
-        this.removeUpdatelastRecordsSelector.SelectedValue.Remove(0, 1));
+        this.removeUpdateLastRecordsSelector.SelectedValue.Remove(0, 1));
         if (p == null)
         {
             this.Master._Logger.Error(new AdminException
@@ -212,7 +212,7 @@ public partial class Admin_Home : System.Web.UI.Page
         }
 
         LastRecordPic p = (LastRecordPic)this.Master._PapaDal.Get("lastRecordsPic",
-        this.removeUpdatelastRecordsSelector.SelectedValue.Remove(0, 1));
+        this.removeUpdateLastRecordsSelector.SelectedValue.Remove(0, 1));
         if (p == null)
         {
             this.Master._Logger.Error(new AdminException
@@ -612,10 +612,10 @@ public partial class Admin_Home : System.Web.UI.Page
                 }
                 break;
             case 17:
-                if (this.removeUpdatelastRecordsSelector.SelectedValue == "")
+                if (this.removeUpdateLastRecordsSelector.SelectedValue == "")
                 {
                     this.Master._Logger.Error(new AdminException
-                    (". this.removeUpdatelastRecordsSelector.SelectedValue == \"\""), MethodBase.GetCurrentMethod().Name);
+                    (". this.removeUpdateLastRecordsSelector.SelectedValue == \"\""), MethodBase.GetCurrentMethod().Name);
                     this.Notify(this.Master._Notifier.Notify(57, "Red", "Picture"));
                     return false;
                 }
@@ -695,7 +695,7 @@ public partial class Admin_Home : System.Web.UI.Page
                 this.lastRecordsBWPicUploadPic.Src = "";
                 break;
             case 6:
-                foreach (ListItem l in this.removeUpdatelastRecordsSelector.Items)
+                foreach (ListItem l in this.removeUpdateLastRecordsSelector.Items)
                 {
                     l.Selected = false;
                 }
@@ -927,7 +927,7 @@ public partial class Admin_Home : System.Web.UI.Page
              int.Parse(this.headerPicPlace.Text)))
         {
             this.Master._Logger.Error(new AdminException
-                (@". (!this.Master._PapaDal.CheckAvailablePlace(""headerPic"", 
+                (@". (!this.Master._PapaDal.CheckAvailablePlace(""headerPic"",
              int.Parse(this.headerPicPlace.Text)))"), MethodBase.GetCurrentMethod().Name);
             this.Notify(this.Master._Notifier.Notify(21, "Red", this.headerPicPlace.Text));
             this.ClearHeaderPic();
@@ -1218,7 +1218,7 @@ public partial class Admin_Home : System.Web.UI.Page
         {
             this.Master._PapaDal.Disable("headerPic", p.PicID);
             this.Master._Logger.Log(new AdminException(". " + p.PicID +
-                " Has Been Successfully Disabeld"), MethodBase.GetCurrentMethod().Name);
+                " Has Been Successfully Disabled"), MethodBase.GetCurrentMethod().Name);
             this.Notify(this.Master._Notifier.Notify(7, "White", p.PicName));
         }
         catch (Exception f)
@@ -1328,7 +1328,7 @@ public partial class Admin_Home : System.Web.UI.Page
                             MethodBase.GetCurrentMethod().Name);
             this.Notify(this.Master._Notifier.Notify(15, "White", g.PicName));
 
-            this.removeUpdatelastRecordsSelector.Items.Add(new ListItem(g.PicName, "s" + g.PicID));
+            this.removeUpdateLastRecordsSelector.Items.Add(new ListItem(g.PicName, "s" + g.PicID));
         }
         catch (Exception e)
         {
@@ -1489,7 +1489,7 @@ public partial class Admin_Home : System.Web.UI.Page
                     " Was Successfully Updated"), MethodBase.GetCurrentMethod().Name);
             this.Notify(this.Master._Notifier.Notify(17, "White", g.PicName));
 
-            this.removeUpdatelastRecordsSelector.Items.FindByValue("s" + g.PicID).Text = g.PicName;
+            this.removeUpdateLastRecordsSelector.Items.FindByValue("s" + g.PicID).Text = g.PicName;
         }
         catch (Exception e)
         {
@@ -1535,8 +1535,8 @@ public partial class Admin_Home : System.Web.UI.Page
                 MethodBase.GetCurrentMethod().Name);
             this.Notify(this.Master._Notifier.Notify(12, "White", g.PicName));
 
-            this.removeUpdatelastRecordsSelector.Items.Remove
-            (this.removeUpdatelastRecordsSelector.Items.FindByValue
+            this.removeUpdateLastRecordsSelector.Items.Remove
+            (this.removeUpdateLastRecordsSelector.Items.FindByValue
             ("s" + g.PicID));
         }
         catch (Exception e)
@@ -1628,7 +1628,7 @@ public partial class Admin_Home : System.Web.UI.Page
         {
             this.Master._PapaDal.Disable("lastRecordsPic", p.PicID);
             this.Master._Logger.Log(new AdminException(". " + p.PicID +
-                " Has Been Successfully Disabeld"), MethodBase.GetCurrentMethod().Name);
+                " Has Been Successfully Disabled"), MethodBase.GetCurrentMethod().Name);
             this.Notify(this.Master._Notifier.Notify(7, "White", p.PicName));
         }
         catch (Exception f)
@@ -2038,7 +2038,7 @@ public partial class Admin_Home : System.Web.UI.Page
         {
             this.Master._PapaDal.Disable("willComePic", p.PicID);
             this.Master._Logger.Log(new AdminException(". " + p.PicID +
-                " Has Been Successfully Disabeld"), MethodBase.GetCurrentMethod().Name);
+                " Has Been Successfully Disabled"), MethodBase.GetCurrentMethod().Name);
             this.Notify(this.Master._Notifier.Notify(7, "White", p.PicName));
         }
         catch (Exception f)
@@ -2306,7 +2306,7 @@ public partial class Admin_Home : System.Web.UI.Page
 
     private void ShowHeaderPicEnableDisable(bool visible)
     {
-        this.diableHeaderPicButton.Visible = visible;
+        this.disableHeaderPicButton.Visible = visible;
         this.enableHeaderPicButton.Visible = visible;
     }
 
@@ -2677,7 +2677,7 @@ public partial class Admin_Home : System.Web.UI.Page
         {
             this.Master._Logger.Error(e, MethodBase.GetCurrentMethod().Name);
             this.notifyLabel.ForeColor = Color.Red;
-            this.notifyLabel.Text = "Ooooops! Something Wrong Was Happend, Please Try Again Or/And content The Administrator";
+            this.notifyLabel.Text = "Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator";
         }
         finally
         {

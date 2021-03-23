@@ -14,7 +14,7 @@
                 <div class="space14Prod">
                 </div>
                 <div style="height:140px"></div>
-                <p id="seletedText" class="textAbout">
+                <p id="selectedText" class="textAbout">
                 </p>
             </div>
         </div>

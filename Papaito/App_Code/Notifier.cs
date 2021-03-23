@@ -22,7 +22,7 @@ public class Notifier
         switch (option)
         {
             case 0:
-                message = "Ooooops! Somthing Wrong Was Happend, Please Try Again Or/And content The Administrator";
+                message = "Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator";
                 break;
             case 1:
                 message = "Please Select An Action";
@@ -31,7 +31,7 @@ public class Notifier
                 message = "No Update Was Found";
                 break;
             case 3:
-                message = valueName + " Faild To Be Added";
+                message = valueName + " Failed To Be Added";
                 break;
             case 4:
                 message = "No Images To Update/Remove";
@@ -43,7 +43,7 @@ public class Notifier
                 message = valueName + " Has Been Successfully Enabled";
                 break;
             case 7:
-                message = valueName + " Has Been Successfully Disabeld";
+                message = valueName + " Has Been Successfully Disabled";
                 break;
             case 8:
                 message = valueName + " Is Already Disabled";
@@ -52,31 +52,31 @@ public class Notifier
                 message = valueName + " Is Already Enabled";
                 break;
             case 10:
-                message = "Faild To Enable " + valueName;
+                message = "Failed To Enable " + valueName;
                 break;
             case 11:
-                message = "Faild To Disable " + valueName;
+                message = "Failed To Disable " + valueName;
                 break;
             case 12:
                 message = valueName + " Has Been Successfully Removed";
                 break;
             case 13:
-                message = "Faild To Remove " + valueName;
+                message = "Failed To Remove " + valueName;
                 break;
             case 14:
-                message = "Faild To Add " + valueName + ". File Must Be With Ending With One Of The Following: jpg, jpeg, png, gif / JPG, JPEG. PNG, GIF";
+                message = "Failed To Add " + valueName + ". File Must Be With Ending With One Of The Following: jpg, jpeg, png, gif / JPG, JPEG. PNG, GIF";
                 break;
             case 15:
                 message = valueName + " Has Been Successfully Added";
                 break;
             case 16:
-                message = "Faild To Add " + valueName;
+                message = "Failed To Add " + valueName;
                 break;
             case 17:
                 message = valueName + " Has Been Successfully Updated";
                 break;
             case 18:
-                message = "Faild To Update " + valueName;
+                message = "Failed To Update " + valueName;
                 break;
             case 19:
                 message = "Please Enter Picture Place";
@@ -130,7 +130,7 @@ public class Notifier
                 message = "Invalid Song Place";
                 break;
             case 36:
-                message = "Faild To Save File " + valueName;
+                message = "Failed To Save File " + valueName;
                 break;
             case 37:
                 message = "Please Insert " + valueName + " Picture";
@@ -217,7 +217,7 @@ public class Notifier
                 message = "Please Enter Staff Place";
                 break;
             case 70:
-                message = "You Are Temporarily Blocked, Please Contact Administer";
+                message = "You Are Temporarily Blocked, Please Contact Administrator";
                 break;
             default:
                 break;

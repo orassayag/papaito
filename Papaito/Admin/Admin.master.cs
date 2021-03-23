@@ -253,7 +253,7 @@ public partial class Admin_Admin : System.Web.UI.MasterPage
         {
             this.logger.Error(p, MethodBase.GetCurrentMethod().Name);
             this.errorLoginLabel.ForeColor = Color.Red;
-            this.errorLoginLabel.Text = "Faild To Send Mail";
+            this.errorLoginLabel.Text = "Failed To Send Mail";
         }
     }
 

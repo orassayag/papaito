@@ -613,7 +613,7 @@ public partial class Admin_Pr : System.Web.UI.Page
         {
             this.Master._PapaDal.Disable("prPic", p.PicID);
             this.Master._Logger.Log(new AdminException(". " + p.PicID +
-                " Has Been Successfully Disabeld"), MethodBase.GetCurrentMethod().Name);
+                " Has Been Successfully Disabled"), MethodBase.GetCurrentMethod().Name);
             this.Notify(this.Master._Notifier.Notify(7, "White", p.PicName));
         }
         catch (Exception f)
@@ -886,7 +886,7 @@ public partial class Admin_Pr : System.Web.UI.Page
         {
             this.Master._Logger.Error(e, MethodBase.GetCurrentMethod().Name);
             this.notifyLabel.ForeColor = Color.Red;
-            this.notifyLabel.Text = "Ooooops! Somthing Wrong Was Happend, Please Try Again Or/And content The Administrator";
+            this.notifyLabel.Text = "Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator";
         }
         finally
         {

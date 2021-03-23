@@ -126,7 +126,7 @@ public partial class Admin_Admins : System.Web.UI.Page
             case 1:
                 if (this.adminsSelector.SelectedIndex == 0)
                 {
-                    this.Master._Logger.Error(new AdminException(". this.adminsSelector.SelectedIndex == 0"), 
+                    this.Master._Logger.Error(new AdminException(". this.adminsSelector.SelectedIndex == 0"),
                     MethodBase.GetCurrentMethod().Name);
                     this.Notify(this.Master._Notifier.Notify(1, "Red", ""));
                     return false;
@@ -757,7 +757,7 @@ public partial class Admin_Admins : System.Web.UI.Page
         {
             this.Master._Logger.Error(e, MethodBase.GetCurrentMethod().Name);
             this.notifyLabel.ForeColor = Color.Red;
-            this.notifyLabel.Text = "Ooooops! Somthing Wrong Was Happend, Please Try Again Or/And content The Administrator";
+            this.notifyLabel.Text = "Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator";
         }
         finally
         {

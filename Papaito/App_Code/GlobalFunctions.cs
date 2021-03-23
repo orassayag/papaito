@@ -21,7 +21,7 @@ public class GlobalFunctions
     public GlobalFunctions() { }
 
     /// <summary>
-    /// This method check if the uplodad image is with the resolution
+    /// This method check if the uploaded image is with the resolution
     /// that equals or less than given width and height
     /// </summary>
     /// <param name="path"></param>
@@ -51,7 +51,7 @@ public class GlobalFunctions
     }
 
     /// <summary>
-    /// This method check if the uplodad file is with the ending of
+    /// This method check if the uploaded file is with the ending of
     /// jpg,jpeg,png,gif
     /// </summary>
     /// <param name="path"></param>
@@ -67,7 +67,7 @@ public class GlobalFunctions
     }
 
     /// <summary>
-    /// This method take embad link from youtube and
+    /// This method take embed link from youtube and
     /// config it to be in orange color and in the right size
     /// </summary>
     /// <param name="path"></param>
@@ -92,11 +92,11 @@ public class GlobalFunctions
         {
             return "";
         }
-        return string.Format(@"<object width=""320"" height=""265""><param name=""movie"" 
+        return string.Format(@"<object width=""320"" height=""265""><param name=""movie""
 value=""{0}"">
 </param><param name=""allowFullScreen"" value=""true""></param><param name=""allowscriptaccess""
-value=""always""></param><embed 
-src=""{1}"" 
+value=""always""></param><embed
+src=""{1}""
 type=""application/x-shockwave-flash"" allowscriptaccess=""always"" allowfullscreen=""true""
 width=""200"" height=""25""></embed></object>", t, t);
     }
@@ -109,15 +109,15 @@ width=""200"" height=""25""></embed></object>", t, t);
             return;
         }
 
-        //The Recommanded way is to send him the mail by the mail server 
-        //Mail Server include: Host Address, User Name and Password
+        //The Recommended way is to send him the mail by the mail server
+        //Mail Server include: Host Address, Username and Password
 
         MailMessage m = new MailMessage("Coaching_Web_Admin@Coaching.com", "orassyag@walla.co.il"); // my walla
 
         m.Subject = title;
         m.Body = message;
 
-        SmtpClient ss = new SmtpClient("smtp.gmail.com", 587); // put here the address of where you send the mail from 
+        SmtpClient ss = new SmtpClient("smtp.gmail.com", 587); // put here the address of where you send the mail from
         //(this is the place for the host mail address)
         ss.EnableSsl = true;
         ss.Timeout = 10000;
@@ -300,15 +300,15 @@ width=""200"" height=""25""></embed></object>", t, t);
         }
     }
 
-    public void SendMailAdmins(string mailAdress)
+    public void SendMailAdmins(string mailAddress)
     {
-        if (mailAdress == "" || mailAdress == null)
+        if (mailAddress == "" || mailAddress == null)
         {
             return;
         }
 
-        //The Recommanded way is to send him the mail by the mail server 
-        //Mail Server include: Host Address, User Name and Password
+        //The Recommended way is to send him the mail by the mail server
+        //Mail Server include: Host Address, Username and Password
 
 
         StringBuilder bodyBuild = new StringBuilder("This Is Papaito's All Admin's:\n\r");
@@ -318,12 +318,12 @@ width=""200"" height=""25""></embed></object>", t, t);
             bodyBuild.Append("User ID: " + c.UserID + "\n\rPassword: " + c.Password + "\n\r\n\r");
         }
 
-        MailMessage m = new MailMessage("Papaito@gmail.com", mailAdress); // itay gmail
+        MailMessage m = new MailMessage("Papaito@gmail.com", mailAddress); // itay gmail
 
         m.Subject = "Admin User ID's And Password Recovery";
         m.Body = bodyBuild.ToString();
 
-        SmtpClient ss = new SmtpClient("smtp.gmail.com", 587); // put here the address of where you send the mail from 
+        SmtpClient ss = new SmtpClient("smtp.gmail.com", 587); // put here the address of where you send the mail from
         //(this is the place for the host mail address)
         ss.EnableSsl = true;
         ss.Timeout = 10000;

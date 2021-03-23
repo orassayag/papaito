@@ -10,7 +10,7 @@
 		<script type="text/javascript" src="Galleryjs/jquery.history.js"></script>
 		<script type="text/javascript" src="Galleryjs/jquery.gallerifficComplex.js"></script>
 		<script type="text/javascript" src="Galleryjs/jquery.opacityrollover.js"></script>
-		<!-- We only want the thunbnails to display when javascript is disabled -->
+		<!-- We only want the thumbnails to display when javascript is disabled -->
 		<script type="text/javascript">
 		    document.write('<style>.noscript { display: none; }</style>');
 		    $(document).ready(
@@ -84,13 +84,13 @@
 								<img src="Gallerycss/bt2.png" alt="" />
 							</a>
 						</li>
-						
+
 						<li>
 							<a class="thumb" id="RoomCImg3" runat="server">
 								<img src="Gallerycss/bt3.png" alt="" />
 							</a>
 						</li>
-						
+
 						<li>
 							<a class="thumb" id="LookAroundImg1" runat="server">
 								<img class="LookAroundComplex" src="Gallerycss/bt1.png" alt="" />
@@ -181,7 +181,7 @@
 		        }
 
 		        // Initialize history plugin.
-		        // The callback is called at once by present location.hash. 
+		        // The callback is called at once by the present location.hash.
 		        $.historyInit(pageload, "advanced.html");
 
 		        // set onlick event for buttons using the jQuery 1.3 live method
@@ -191,8 +191,8 @@
 		            var hash = this.href;
 		            hash = hash.replace(/^.*#/, '');
 
-		            // moves to a new page. 
-		            // pageload is called at once. 
+		            // moves to a new page.
+		            // pageload is called at once.
 		            // hash don't contain "#", "?"
 		            $.historyLoad(hash);
 
@@ -203,7 +203,7 @@
 		    });
 		</script>
 	</body>
-</html>            
+</html>
 <div style="height:80px";></div>
     <div id="templatemo_content_area">
             <div class="templaetmo1_3_col"  style="margin-top:-70px";>
@@ -317,5 +317,5 @@
             <div class="cleaner">
             </div>
     </div>
-   
+
 </asp:Content>
