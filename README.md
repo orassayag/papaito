@@ -1,4 +1,4 @@
-# Papaito Old
+# Papaito
 
 Built in May 2010. Papaito site built for a customer and in the end didn't upload to production, but was nice to build and get experience with a real world project. Built using ASP.NET Web-Forms + jQuery, Database as of LINQ-TO-SQL.
 
@@ -29,7 +29,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 * **Or Assayag** - *Initial work* - [orassayag](https://github.com/orassayag)
-* **Niv Rabin** - *Initial work* - [nivmorabin](https://www.linkedin.com/in/nivmorabin/)
+* **Niv Rabin** - *Initial work* - [nivmorabin](https://linkedin.com/in/nivmorabin)
 * Or Assayag <orassayag@gmail.com>
 * GitHub: https://github.com/orassayag
 * StackOverFlow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
