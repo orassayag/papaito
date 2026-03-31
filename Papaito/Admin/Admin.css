@@ -1,0 +1,622 @@
+﻿body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, "Trebuchet MS" , Verdana;
+    font-size: 12px;
+    line-height: 1.5em;
+    display: table;
+    background-color: Black;
+    color: white;
+}
+
+body table
+{
+    margin: 0px auto;
+}
+
+
+table
+{
+    border: none;
+}
+
+.wrapper
+{
+    width: 100%;
+    text-align: center;
+}
+
+.main
+{
+    margin: auto;
+    width: 755px;
+}
+
+.wrapper select
+{
+    margin: auto;
+}
+
+.notifyClass
+{
+    color: Red;
+}
+
+.notify
+{
+    margin-left: 100px;
+    width: 700px;
+    height: 81px;
+}
+
+.space61
+{
+    width: 171px;
+}
+
+.space60
+{
+    height: 100px;
+}
+
+.space59
+{
+    height: 10px;
+}
+
+.loginP
+{
+    text-align: center;
+}
+
+.cen
+{
+    text-align: center;
+    margin: auto 0px;
+}
+
+.papaPic
+{
+    margin-top: 10px;
+    margin-left: 90px;
+    height: 137px;
+    width: 593px;
+}
+
+#wrapper2
+{
+    width: 720px;
+    margin-right: 1px;
+}
+
+ul.tabs2
+{
+    width: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+ul.tabs2 li
+{
+    display: block;
+    float: left;
+    padding: 5px;
+}
+
+ul.tabs2 li a
+{
+    display: block;
+    float: left;
+    padding: 4px;
+    font-size: 11;
+    background-color: #e0e0e0;
+    color: #666;
+    text-decoration: none;
+}
+
+.selected2
+{
+    font-weight: bold;
+}
+
+.tab-content2
+{
+    clear: both;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-right: 0px;
+}
+
+.admin2
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.defaulttab2
+{
+    font-weight: bold;
+}
+
+.textHeb
+{
+    direction: rtl;
+}
+
+/*Tab 1*/
+
+.home2
+{
+}
+
+.list
+{
+    width: 200px;
+    height: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-color: #6699CC;
+    border-width: 1px;
+    overflow: auto;
+}
+
+.list a
+{
+    color: White;
+    float: left;
+    padding: 1px;
+}
+
+.list a:hover
+{
+    color: Black;
+    background-color: White;
+}
+
+.mainEditPic
+{
+    width: 1024px;
+    height: 960px;
+}
+
+.pic
+{
+    width: 1024px;
+    height: 100%;
+    text-align: center;
+}
+
+.news
+{
+    width: 1024px;
+    height: 100%;
+    text-align: center;
+}
+
+.newsText
+{
+    margin-left: 100px;
+}
+
+.newxTextSize
+{
+    height: 400px;
+    width: 400px;
+}
+
+.newxTextSizeHe
+{
+    height: 400px;
+    width: 400px;
+    direction: rtl;
+}
+
+.songs
+{
+    text-align: center;
+    margin-left: 300px;
+}
+
+.move
+{
+    float: left;
+}
+
+.inputspace
+{
+    width: 50px;
+}
+
+.home2 h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.home2 h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.homeTable2
+{
+    width: 606px;
+}
+
+.space1
+{
+    width: 139px;
+}
+
+.space2
+{
+    width: 188px;
+}
+
+.space3
+{
+    width: 185px;
+}
+
+
+/*Tab 2 - Complex */
+
+.complex2
+{
+}
+
+.complex2 h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.complex2 h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.complexTable2
+{
+    width: 606px;
+}
+
+/*Tab 3 - Studio */
+
+.studio2
+{
+}
+
+.studio2 h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.studio2 h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.studioTable2
+{
+    width: 606px;
+}
+
+/*Tab 4 - Design */
+
+.design2
+{
+}
+
+.design2 h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.design2 h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.designTable2
+{
+    width: 606px;
+}
+
+/*Tab 5 - Production */
+
+.production2
+{
+}
+
+.production2 h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.production2 h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.productionTable2
+{
+    width: 606px;
+}
+
+.space1
+{
+    width: 335px;
+}
+.space2
+{
+    width: 296px;
+}
+
+.space16
+{
+    width: 87px;
+}
+
+.productionEx
+{
+    width: 180px;
+    height: 172px;
+    border: 1px solid #363636;
+}
+
+/*Tab 6 - Artists */
+
+.artistsEx
+{
+    width: 124px;
+    height: 30px;
+}
+
+.allArtists
+{
+}
+
+.allArtists h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.allArtists h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.allArtistsTable
+{
+    width: 606px;
+}
+
+.space4
+{
+    width: 177px;
+}
+.space5
+{
+    width: 100px;
+}
+.space6
+{
+    width: 329px;
+}
+
+/*Tab 7 - Contact And About */
+
+.contactAndAbout2
+{
+}
+
+.contactAndAbout2 h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.contactAndAbout2 h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.contactAndAboutTable2
+{
+    width: 606px;
+}
+
+/*Tab 8 - Staff */
+
+.staff2
+{
+}
+
+.staff2 h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.staff2 h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.staffTable2
+{
+    width: 606px;
+}
+
+.space7
+{
+    width: 222px;
+}
+.space8
+{
+    width: 216px;
+}
+.space9
+{
+    width: 223px;
+}
+.space10
+{
+    width: 221px;
+}
+.space11
+{
+    height: 97px;
+}
+.space12
+{
+    width: 221px;
+    height: 97px;
+}
+.space13
+{
+    width: 245px;
+}
+.space14
+{
+    width: 237px;
+}
+.space15
+{
+    width: 227px;
+}
+
+.proGrid
+{
+    height: 97px;
+}
+
+
+/*Tab 9 - PR */
+
+.pr2
+{
+}
+
+.pr2 h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.pr2 h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.prTable2
+{
+    width: 606px;
+}
+
+
+.space62
+{
+    width: 233px;
+}
+
+/*Tab 10 - Publish */
+
+.publishEx
+{
+    width: 124px;
+    height: 30px;
+}
+
+.publish
+{
+}
+
+.publish h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.publish h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.publishTable
+{
+    width: 606px;
+}
+
+.space4
+{
+    width: 177px;
+}
+.space5
+{
+    width: 100px;
+}
+.space6
+{
+    width: 329px;
+}
+
+/*Tab 11 - General */
+
+.general2
+{
+}
+
+.general2 h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.general2 h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.generalTable2
+{
+    width: 606px;
+}
+
+.mailNo
+{
+    visibility: hidden;
+}
+
+.mailYes
+{
+    visibility: visible;
+}

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 18, 17.875" name="PapaitoDal">
+  <DataContextMoniker Name="/PapaitoDalDataContext" />
+  <nestedChildShapes>
+    <classShape Id="5a371b53-6bf5-41fe-9850-dfa45a274892" absoluteBounds="6.75, 4.75, 2, 2.2465844726562505">
+      <DataClassMoniker Name="/PapaitoDalDataContext/AdminUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2d2eee97-dec5-423b-834d-771f1c7389eb" absoluteBounds="6.765, 5.21, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3d8b034c-cf3d-4b1e-9bdd-65ef234dc30d" absoluteBounds="6.75, 7.75, 2, 1.7535424804687496">
+      <DataClassMoniker Name="/PapaitoDalDataContext/StudioLookAroundPic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e707cf64-b935-4658-a9a0-eebe03393f68" absoluteBounds="6.765, 8.21, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="07d6b66c-c41c-4a7c-a4e0-b50fd5da9469" absoluteBounds="6.75, 1.25, 2, 1.5891951497395833">
+      <DataClassMoniker Name="/PapaitoDalDataContext/AllArtistGallery" />
+      <nestedChildShapes>
+        <elementListCompartment Id="206d318a-e454-41c5-9bf7-123d579fe751" absoluteBounds="6.765, 1.71, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4263d23c-031f-48eb-92cd-6902368f1c65" absoluteBounds="9.5, 0.875, 2, 2.2465844726562496">
+      <DataClassMoniker Name="/PapaitoDalDataContext/AllArtistPic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f2d330eb-d56b-4653-a879-08677356e27d" absoluteBounds="9.515, 1.335, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="32328f5f-d725-4b5a-a6bf-52bdecbe9507" absoluteBounds="0.75, 8.75, 2, 1.5891951497395844">
+      <DataClassMoniker Name="/PapaitoDalDataContext/ComplexAbout" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c356112-c360-45f4-a175-de283d46fad1" absoluteBounds="0.765, 9.21, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5ddb1f94-2635-4d8c-9309-3317aab15413" absoluteBounds="9.75, 4.75, 2, 1.7535424804687505">
+      <DataClassMoniker Name="/PapaitoDalDataContext/ComplexLookAroundPic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7d807c22-6bdb-412a-8f11-cdd9e638d66f" absoluteBounds="9.765, 5.21, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4afccb70-93ae-4b60-bb91-f37762b5c569" absoluteBounds="9.75, 7.75, 2, 1.7535424804687496">
+      <DataClassMoniker Name="/PapaitoDalDataContext/ControlRoomPic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7bae2bbc-0499-4587-98c4-7e35539ebf5a" absoluteBounds="9.765, 8.21, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="76b9c76d-f62b-494a-977c-f41ef91ad91a" absoluteBounds="3.75, 10.75, 2, 1.7535424804687487">
+      <DataClassMoniker Name="/PapaitoDalDataContext/DesignPic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5088cb7-8d06-4a6b-9c31-a5a3989f4aec" absoluteBounds="3.765, 11.21, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="57251d61-cae7-42f2-9db4-2edb23464498" absoluteBounds="6.75, 10.75, 2, 1.5891951497395844">
+      <DataClassMoniker Name="/PapaitoDalDataContext/DesignText" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dbe89d3d-8648-4603-8144-e7671b8b87a1" absoluteBounds="6.765, 11.21, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4ce71f85-d11a-4e92-8fa2-49ab5a148421" absoluteBounds="9.75, 10.75, 2, 1.7535424804687487">
+      <DataClassMoniker Name="/PapaitoDalDataContext/HeaderPic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5bd77a1c-2c15-4abb-9369-3d2189e7614c" absoluteBounds="9.765, 11.21, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="49d88183-f84b-4e21-9181-f35ae314ede1" absoluteBounds="12.75, 0.75, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/PapaitoDalDataContext/LastRecordPic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="91830c9c-0740-4013-81f5-1d4af0f3d364" absoluteBounds="12.765, 1.21, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="49bfea8e-a9af-4050-a34c-c6b305a7ace9" absoluteBounds="12.75, 3.75, 2, 1.5891951497395827">
+      <DataClassMoniker Name="/PapaitoDalDataContext/MainAbout" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba0d435c-b040-401a-98fe-2febf9b9b543" absoluteBounds="12.765, 4.21, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="39aca93a-880a-4b03-84c1-eaac92892390" absoluteBounds="12.75, 6.75, 2, 1.5891951497395835">
+      <DataClassMoniker Name="/PapaitoDalDataContext/MainContact" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4deb2ae6-878d-43f1-9216-249e50f744a4" absoluteBounds="12.765, 7.21, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="00b51160-e339-468b-b128-af9fb3a23850" absoluteBounds="12.75, 9.75, 2, 1.5891951497395844">
+      <DataClassMoniker Name="/PapaitoDalDataContext/NewsOb" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f6718112-add6-4b1f-83fd-2c9bd7d4ee6d" absoluteBounds="12.765, 10.21, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ec23e8b7-63fe-461e-936a-07e2764a8701" absoluteBounds="0.75, 1, 2, 2.7396264648437496">
+      <DataClassMoniker Name="/PapaitoDalDataContext/Production" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d1b10189-ef58-46d7-9f91-66da0ccab247" absoluteBounds="0.765, 1.46, 1.9700000000000002, 2.17962646484375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d11a2169-2f18-4678-9b01-da62e76d709e" absoluteBounds="12.75, 12.75, 2, 1.7535424804687487">
+      <DataClassMoniker Name="/PapaitoDalDataContext/PrPic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f372f2a9-94b0-44ec-96c4-8c10ad05f8c8" absoluteBounds="12.765, 13.21, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e2d038bb-19e6-4eca-a53c-5bc5230798ef" absoluteBounds="0.75, 13.75, 2, 1.5891951497395844">
+      <DataClassMoniker Name="/PapaitoDalDataContext/PrText" />
+      <nestedChildShapes>
+        <elementListCompartment Id="35f76b9b-b701-4fce-aa8d-ef781ba1701a" absoluteBounds="0.765, 14.21, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="905bab42-00c5-4adc-8617-1612af1f97ac" absoluteBounds="0.75, 5.5, 2, 1.5891951497395827">
+      <DataClassMoniker Name="/PapaitoDalDataContext/PublishGallery" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c0cbe53b-0261-43cd-8990-9111cbc82c0b" absoluteBounds="0.765, 5.96, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="37cb68a4-7f14-4f41-8792-30392e49d7c7" absoluteBounds="3.5, 5, 2, 2.5752791341145826">
+      <DataClassMoniker Name="/PapaitoDalDataContext/PublishPic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7de8146f-633e-4c4a-96b0-7d91dc3ca702" absoluteBounds="3.515, 5.46, 1.9700000000000002, 2.015279134114583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ae1fbf22-67ca-4bb5-b0c6-e62416f600d9" absoluteBounds="3.75, 13.75, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/PapaitoDalDataContext/RecordingRoomPic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e336f1ec-2c45-4dd0-9d2f-605aec8101b3" absoluteBounds="3.765, 14.21, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2f1597b7-7328-443d-8f8d-9491e75f1e14" absoluteBounds="6.75, 13.75, 2, 1.7535424804687487">
+      <DataClassMoniker Name="/PapaitoDalDataContext/RoomAPic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0bf2c566-559b-4d41-b574-0ef1f8d93e54" absoluteBounds="6.765, 14.21, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a0999f9e-8789-4f88-bc07-b94f13f0e692" absoluteBounds="15.75, 0.75, 2, 1.7535424804687503">
+      <DataClassMoniker Name="/PapaitoDalDataContext/RoomBPic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9294c2c2-014f-49e1-8284-e75b7183a2b6" absoluteBounds="15.765, 1.21, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="175af33e-64d6-45fe-8073-b5ecf0f5882e" absoluteBounds="15.75, 3.75, 2, 1.7535424804687505">
+      <DataClassMoniker Name="/PapaitoDalDataContext/RoomCPic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1e0a2401-212a-4c2f-a573-025635dadacb" absoluteBounds="15.765, 4.21, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="00c12764-4bb1-420f-9943-ea88830fffe6" absoluteBounds="3.5, 1.25, 2, 2.2465844726562496">
+      <DataClassMoniker Name="/PapaitoDalDataContext/Song" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b78b9072-db17-42f3-9620-f3d1a73a9794" absoluteBounds="3.515, 1.71, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="341c4b80-9855-4bcf-94ee-f67b32f8d1a6" absoluteBounds="15.75, 6.75, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/PapaitoDalDataContext/StaffDudu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="475f89fa-44ac-4969-a346-5b6da9630c52" absoluteBounds="15.765, 7.21, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cc5425f9-4124-490a-ac68-75d85320df19" absoluteBounds="15.75, 9.75, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/PapaitoDalDataContext/StaffItay" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9dd8e25b-4633-4006-8ce5-24c37a002c86" absoluteBounds="15.765, 10.21, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9f5a9bb0-34aa-46ec-9fa4-92623bd08602" absoluteBounds="9.75, 15.75, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/PapaitoDalDataContext/StaffNapo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="56dfd126-cc05-4edc-8abd-ee66e02bc29d" absoluteBounds="9.765, 16.21, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="937e464b-b492-49db-bca4-5a5e7423f0f9" absoluteBounds="15.75, 12.75, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/PapaitoDalDataContext/StaffPerri" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1a098ed1-7f48-4b5e-a099-f366f117492b" absoluteBounds="15.765, 13.21, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="82f0e067-871c-455e-8686-8bfedad8ee04" absoluteBounds="12.75, 15.75, 2, 1.5891951497395827">
+      <DataClassMoniker Name="/PapaitoDalDataContext/StudioAbout" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b595d39d-3f25-48df-9b4d-3146a4a2aa08" absoluteBounds="12.765, 16.21, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.75 : 2.04459757486979); (9.5 : 2.04459757486979)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PapaitoDalDataContext/AllArtistGallery/AllArtistGallery_AllArtistPic" />
+      <nodes>
+        <classShapeMoniker Id="07d6b66c-c41c-4a7c-a4e0-b50fd5da9469" />
+        <classShapeMoniker Id="4263d23c-031f-48eb-92cd-6902368f1c65" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 6.29459757486979); (3.5 : 6.29459757486979)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PapaitoDalDataContext/PublishGallery/PublishGallery_PublishPic" />
+      <nodes>
+        <classShapeMoniker Id="905bab42-00c5-4adc-8617-1612af1f97ac" />
+        <classShapeMoniker Id="37cb68a4-7f14-4f41-8792-30392e49d7c7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.37329223632812); (3.5 : 2.37329223632812)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PapaitoDalDataContext/Production/Production_Song" />
+      <nodes>
+        <classShapeMoniker Id="ec23e8b7-63fe-461e-936a-07e2764a8701" />
+        <classShapeMoniker Id="00c12764-4bb1-420f-9943-ea88830fffe6" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
